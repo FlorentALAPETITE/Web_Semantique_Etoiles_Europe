@@ -1,0 +1,14 @@
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dbo: <dbpedia.org/onthology/>
+PREFIX dbp: <dbpedia.org/property/>
+
+#CONSTRUCT {
+#  ?URI a dbo:Person;
+#    dbp:birthName ?prenom;
+#    dbp:birthDate ?annee;
+#}
+SELECT ?prenom ?annee 
+FROM <file:test.csv> 
+WHERE{
+	BIND ("test" AS ?URI)
+}
