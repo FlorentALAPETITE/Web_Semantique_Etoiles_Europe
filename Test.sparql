@@ -3,31 +3,33 @@ PREFIX dbo: <dbpedia.org/onthology/>
 PREFIX dbp: <dbpedia.org/property/>
 PREFIX doap: <http://usefulinc.com/ns/doap#>
 
-
 # Person
 CONSTRUCT {
-	?URI a dbo:Person;
-	foaf:firstName ?prenom;
-	foaf:familyName ?nom;
-	foaf:gender ?sexe;
+    ?URI a dbo:Person;
+    foaf:firstName ?prenom;
+    foaf:familyName ?nom;
+    foaf:gender ?sexe;
+    <http://example.com/ns#Award_Won> ?AwardWon;
+    #<http://example.com/ns#codeSexe> ?Code_sexe;
 }
 FROM <file:fr-esr-etoile-de-l-europe.csv> 
 WHERE{
     BIND (URI(CONCAT('http://example.com/ns#', ?prenom, '-' ,?nom)) AS ?URI)
+    BIND (URI(CONCAT('http://example.com/ns#', ?Type_de_prix, ?nom)) AS ?AwardWon)
 }
 
 # Projet
 CONSTRUCT {
-	?URI a doap:Project;
-	doap:maintainer ?person;
-	doap:name ?Titre_du_projet;
-	doap:homepage ?Lien_Cordis;
-	doap:description ?Résumé;
-	doap:category ?Thematique;
-	?TypeFinancement ?Type_financement;
-	?CodeProgramme ?Code_du_programme;
-	?CodeAppel ?Code_d_appel_à_projet;
-	?AcronymeProjet ?Acronyme_du_projet;
+    ?URI a doap:Project;
+    doap:maintainer ?person;
+    doap:name ?Titre_du_projet;
+    doap:homepage ?Lien_Cordis;
+    doap:description ?Résumé;
+    doap:category ?Thematique;
+    ?TypeFinancement ?Type_financement;
+    ?CodeProgramme ?Code_du_programme;
+    ?CodeAppel ?Code_d_appel_à_projet;
+    ?AcronymeProjet ?Acronyme_du_projet;
 }
 FROM <file:fr-esr-etoile-de-l-europe.csv> 
 WHERE{
@@ -38,4 +40,23 @@ WHERE{
     BIND (URI('http://example.com/ns#Code_du_programme') AS ?CodeProgramme)
     BIND (URI('http://example.com/ns#Code_d_appel_à_projet') AS ?CodeAppel)
     BIND (URI('http://example.com/ns#Acronyme_du_projet') AS ?AcronymeProjet)
+}
+
+# AwardWon
+CONSTRUCT {
+    ?URI a <http://example.com/ns#Award_Won>;
+    dbo:Award ?Type_de_prix;
+    ?AwardMention ?Mention; 
+    ?NumEdition ?Numéro_de_l_édition;
+    ?AwardEdition ?Edition;
+}
+FROM <file:fr-esr-etoile-de-l-europe.csv> 
+WHERE{
+    BIND (URI(CONCAT('http://example.com/ns#', ?prenom, '-' ,?nom)) AS ?person)
+    BIND (URI(CONCAT('http://example.com/ns#', ?Type_de_prix)) AS ?AwardWon)
+    BIND (URI(CONCAT('http://example.com/ns#', ?Type_de_prix, ?nom)) AS ?URI)
+    
+    BIND (URI('http://example.com/ns#Mention') AS ?AwardMention)
+    BIND (URI('http://example.com/ns#Numéro_de_l_édition') AS ?NumEdition)
+    BIND (URI('http://example.com/ns#Edition') AS ?AwardEdition)
 }
