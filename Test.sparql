@@ -1,14 +1,41 @@
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX dbo: <dbpedia.org/onthology/>
 PREFIX dbp: <dbpedia.org/property/>
+PREFIX doap: <http://usefulinc.com/ns/doap#>
 
-#CONSTRUCT {
-#  ?URI a dbo:Person;
-#    dbp:birthName ?prenom;
-#    dbp:birthDate ?annee;
-#}
-SELECT ?prenom ?annee 
-FROM <file:test.csv> 
+
+# Person
+CONSTRUCT {
+	?URI a dbo:Person;
+	foaf:firstName ?prenom;
+	foaf:familyName ?nom;
+	foaf:gender ?sexe;
+}
+FROM <file:fr-esr-etoile-de-l-europe.csv> 
 WHERE{
-	BIND ("test" AS ?URI)
+    BIND (URI(CONCAT('http://example.com/ns#', ?prenom, '-' ,?nom)) AS ?URI)
+}
+
+# Projet
+CONSTRUCT {
+	?URI a doap:Project;
+	doap:maintainer ?person;
+	doap:name ?Titre_du_projet;
+	doap:homepage ?Lien_Cordis;
+	doap:description ?Résumé;
+	doap:category ?Thematique;
+	?TypeFinancement ?Type_financement;
+	?CodeProgramme ?Code_du_programme;
+	?CodeAppel ?Code_d_appel_à_projet;
+	?AcronymeProjet ?Acronyme_du_projet;
+}
+FROM <file:fr-esr-etoile-de-l-europe.csv> 
+WHERE{
+    BIND (URI(CONCAT('http://example.com/ns#', ?prenom, '-' ,?nom)) AS ?person)
+    BIND (URI(CONCAT('http://example.com/ns#', ?Titre_du_projet)) AS ?URI)
+
+    BIND (URI('http://example.com/ns#Type_financement') AS ?TypeFinancement)
+    BIND (URI('http://example.com/ns#Code_du_programme') AS ?CodeProgramme)
+    BIND (URI('http://example.com/ns#Code_d_appel_à_projet') AS ?CodeAppel)
+    BIND (URI('http://example.com/ns#Acronyme_du_projet') AS ?AcronymeProjet)
 }
