@@ -1,0 +1,15 @@
+/home/florent/Documents/tarql/src/test/java/org/deri/tarql/StreamRDFDedupTest.java
+/home/florent/Documents/tarql/src/test/java/org/deri/tarql/Helpers.java
+/home/florent/Documents/tarql/src/test/java/org/deri/tarql/TarqlParserTest.java
+/home/florent/Documents/tarql/src/test/java/org/deri/tarql/functions/FunctionTest.java
+/home/florent/Documents/tarql/src/test/java/org/deri/tarql/OpenCSVTest.java
+/home/florent/Documents/tarql/src/test/java/org/deri/tarql/LargeInputTest.java
+/home/florent/Documents/tarql/src/test/java/org/deri/tarql/CSVFragmentTest.java
+/home/florent/Documents/tarql/src/test/java/org/deri/tarql/functions/ExpandPrefixTest.java
+/home/florent/Documents/tarql/src/test/java/org/deri/tarql/ARQTest.java
+/home/florent/Documents/tarql/src/test/java/org/deri/tarql/ContentProducer.java
+/home/florent/Documents/tarql/src/test/java/org/deri/tarql/CSVTableTest.java
+/home/florent/Documents/tarql/src/test/java/org/deri/tarql/CharsetDetectingReaderTest.java
+/home/florent/Documents/tarql/src/test/java/org/deri/tarql/TarqlTest.java
+/home/florent/Documents/tarql/src/test/java/org/deri/tarql/functions/ExpandPrefixedNameTest.java
+/home/florent/Documents/tarql/src/test/java/org/deri/tarql/CSVParserTest.java

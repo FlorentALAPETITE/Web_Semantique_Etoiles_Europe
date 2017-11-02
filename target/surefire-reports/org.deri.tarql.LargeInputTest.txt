@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.deri.tarql.LargeInputTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 8, Time elapsed: 0.02 sec - in org.deri.tarql.LargeInputTest

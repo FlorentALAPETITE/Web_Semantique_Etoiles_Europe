@@ -1,0 +1,16 @@
+/home/florent/Documents/tarql/src/main/java/org/deri/tarql/URLOptionsParser.java
+/home/florent/Documents/tarql/src/main/java/org/deri/tarql/TarqlQueryExecutionFactory.java
+/home/florent/Documents/tarql/src/main/java/org/deri/tarql/CSVParser.java
+/home/florent/Documents/tarql/src/main/java/org/deri/tarql/functions/ExpandPrefixFunction.java
+/home/florent/Documents/tarql/src/main/java/org/deri/tarql/TarqlParser.java
+/home/florent/Documents/tarql/src/main/java/org/deri/tarql/functions/ExpandPrefixedNameFunction.java
+/home/florent/Documents/tarql/src/main/java/org/deri/tarql/TarqlQuery.java
+/home/florent/Documents/tarql/src/main/java/org/deri/tarql/tarql.java
+/home/florent/Documents/tarql/src/main/java/org/deri/tarql/CSVTable.java
+/home/florent/Documents/tarql/src/main/java/org/deri/tarql/TarqlException.java
+/home/florent/Documents/tarql/src/main/java/org/deri/tarql/TarqlQueryExecution.java
+/home/florent/Documents/tarql/src/main/java/org/deri/tarql/StreamRDFDedup.java
+/home/florent/Documents/tarql/src/main/java/org/deri/tarql/StreamingRDFWriter.java
+/home/florent/Documents/tarql/src/main/java/org/deri/tarql/InputStreamSource.java
+/home/florent/Documents/tarql/src/main/java/org/deri/tarql/CSVOptions.java
+/home/florent/Documents/tarql/src/main/java/org/deri/tarql/CharsetDetectingReader.java
