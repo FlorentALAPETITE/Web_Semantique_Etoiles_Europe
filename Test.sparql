@@ -9,13 +9,13 @@ CONSTRUCT {
     foaf:firstName ?prenom;
     foaf:familyName ?nom;
     foaf:gender ?sexe;
-    <http://example.com/ns#Award_Won> ?AwardWon;
-    #<http://example.com/ns#codeSexe> ?Code_sexe;
+    <http://concours-etoiles-europe.org/ns#Award_Won> ?AwardWon;
+    #<http://concours-etoiles-europe.org/ns#codeSexe> ?Code_sexe;
 }
 FROM <file:fr-esr-etoile-de-l-europe.csv> 
 WHERE{
-    BIND (URI(CONCAT('http://example.com/ns#', ?prenom, '-' ,?nom)) AS ?URI)
-    BIND (URI(CONCAT('http://example.com/ns#', ?Type_de_prix, ?nom)) AS ?AwardWon)
+    BIND (URI(CONCAT('http://concours-etoiles-europe.org/ns#', ?prenom, '-' ,?nom)) AS ?URI)
+    BIND (URI(CONCAT('http://concours-etoiles-europe.org/ns#', ?Type_de_prix, ?nom)) AS ?AwardWon)
 }
 
 # Projet
@@ -33,30 +33,32 @@ CONSTRUCT {
 }
 FROM <file:fr-esr-etoile-de-l-europe.csv> 
 WHERE{
-    BIND (URI(CONCAT('http://example.com/ns#', ?prenom, '-' ,?nom)) AS ?person)
-    BIND (URI(CONCAT('http://example.com/ns#', ?Titre_du_projet)) AS ?URI)
+    BIND (URI(CONCAT('http://concours-etoiles-europe.org/ns#', ?prenom, '-' ,?nom)) AS ?person)
+    BIND (URI(CONCAT('http://concours-etoiles-europe.org/ns#', ?Titre_du_projet)) AS ?URI)
 
-    BIND (URI('http://example.com/ns#Type_financement') AS ?TypeFinancement)
-    BIND (URI('http://example.com/ns#Code_du_programme') AS ?CodeProgramme)
-    BIND (URI('http://example.com/ns#Code_d_appel_à_projet') AS ?CodeAppel)
-    BIND (URI('http://example.com/ns#Acronyme_du_projet') AS ?AcronymeProjet)
+    BIND (URI('http://concours-etoiles-europe.org/ns#Type_financement') AS ?TypeFinancement)
+    BIND (URI('http://concours-etoiles-europe.org/ns#Code_du_programme') AS ?CodeProgramme)
+    BIND (URI('http://concours-etoiles-europe.org/ns#Code_d_appel_à_projet') AS ?CodeAppel)
+    BIND (URI('http://concours-etoiles-europe.org/ns#Acronyme_du_projet') AS ?AcronymeProjet)
 }
 
 # AwardWon
 CONSTRUCT {
-    ?URI a <http://example.com/ns#Award_Won>;
+    ?URI a <http://concours-etoiles-europe.org/ns#Award_Won>;
     dbo:Award ?Type_de_prix;
     ?AwardMention ?Mention; 
     ?NumEdition ?Numéro_de_l_édition;
     ?AwardEdition ?Edition;
+    ?AwardPlace ?URICommune
 }
 FROM <file:fr-esr-etoile-de-l-europe.csv> 
-WHERE{
-    BIND (URI(CONCAT('http://example.com/ns#', ?prenom, '-' ,?nom)) AS ?person)
-    BIND (URI(CONCAT('http://example.com/ns#', ?Type_de_prix)) AS ?AwardWon)
-    BIND (URI(CONCAT('http://example.com/ns#', ?Type_de_prix, ?nom)) AS ?URI)
+WHERE{       
+    BIND (URI(CONCAT('http://concours-etoiles-europe.org/ns#', ?Type_de_prix, ?nom)) AS ?URI)
     
-    BIND (URI('http://example.com/ns#Mention') AS ?AwardMention)
-    BIND (URI('http://example.com/ns#Numéro_de_l_édition') AS ?NumEdition)
-    BIND (URI('http://example.com/ns#Edition') AS ?AwardEdition)
+    BIND (URI('http://concours-etoiles-europe.org/ns#Mention') AS ?AwardMention)
+    BIND (URI('http://concours-etoiles-europe.org/ns#Numéro_de_l_édition') AS ?NumEdition)
+    BIND (URI('http://concours-etoiles-europe.org/ns#Edition') AS ?AwardEdition)
+    BIND (URI(CONCAT('http://dbpedia.org/page/', ?Libellé_commune)) AS ?URICommune)
 }
+
+
