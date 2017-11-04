@@ -5,9 +5,9 @@ SELECT ?firstName ?familyName ?mention
 WHERE{
 	?x foaf:firstName ?firstName;
 	   foaf:familyName ?familyName;
-	   http://concours-etoiles-europe.org/ns#Award_Won ?award;
+	   http://concours-etoiles-europe.org/ns#Award_Won ?award.
 
-	?award http://concours-etoiles-europe.org/ns#Edition "2015";
+	?award http://concours-etoiles-europe.org/ns#Edition "2015".
 	OPTIONNAL{?award http://concours-etoiles-europe.org/ns#Mention ?mention}
 }
 
