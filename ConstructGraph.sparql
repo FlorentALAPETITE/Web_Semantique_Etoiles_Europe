@@ -1,6 +1,6 @@
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX dbo: <dbpedia.org/onthology/>
-PREFIX dbp: <dbpedia.org/property/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX doap: <http://usefulinc.com/ns/doap#>
 
 # Person
@@ -29,7 +29,8 @@ CONSTRUCT {
     ?TypeFinancement ?Type_financement;
     ?CodeProgramme ?Code_du_programme;
     ?CodeAppel ?Code_d_appel_à_projet;
-    ?AcronymeProjet ?Acronyme_du_projet;
+    ?AcronymeProjet ?Acronyme_du_projet;    
+    foaf:Organization ?URI_Structure
 }
 FROM <file:fr-esr-etoile-de-l-europe.csv> 
 WHERE{
@@ -39,8 +40,34 @@ WHERE{
     BIND (URI('http://concours-etoiles-europe.org/ns#Type_financement') AS ?TypeFinancement)
     BIND (URI('http://concours-etoiles-europe.org/ns#Code_du_programme') AS ?CodeProgramme)
     BIND (URI('http://concours-etoiles-europe.org/ns#Code_d_appel_à_projet') AS ?CodeAppel)
-    BIND (URI('http://concours-etoiles-europe.org/ns#Acronyme_du_projet') AS ?AcronymeProjet)
+    BIND (URI('http://concours-etoiles-europe.org/ns#Acronyme_du_projet') AS ?AcronymeProjet)   
+    
+
+    BIND (URI(CONCAT('http://concours-etoiles-europe.org/ns#', ?Libellé_de_structure)) AS ?URI_Structure)
 }
+
+
+# Organization
+CONSTRUCT {
+    ?URI a foaf:Organization;
+    ?IdentifiantStructure ?Identifiant_de_structure;
+    ?LibelleStructure ?Libellé_de_structure;
+    ?SigleStructure ?Sigle_de_structure;
+    ?NatureStructure ?Nature_de_la_structure;
+    dbo:Settlement ?URI_Commune;
+}
+FROM <file:fr-esr-etoile-de-l-europe.csv> 
+WHERE{
+    BIND (URI(CONCAT('http://concours-etoiles-europe.org/ns#', ?Libellé_de_structure)) AS ?URI)
+
+    BIND (URI('http://concours-etoiles-europe.org/ns#Identifiant_Structure') AS ?IdentifiantStructure)
+    BIND (URI('http://concours-etoiles-europe.org/ns#Libellé_Structure') AS ?LibelleStructure)
+    BIND (URI('http://concours-etoiles-europe.org/ns#Sigle_Structure') AS ?SigleStructure)
+    BIND (URI('http://concours-etoiles-europe.org/ns#Nature_Structure') AS ?NatureStructure)
+    BIND (URI(CONCAT('http://dbpedia.org/page/', ?Libellé_commune)) AS ?URI_Commune)
+
+}
+
 
 # AwardWon
 CONSTRUCT {
@@ -48,8 +75,7 @@ CONSTRUCT {
     dbo:Award ?Type_de_prix;
     ?AwardMention ?Mention; 
     ?NumEdition ?Numéro_de_l_édition;
-    ?AwardEdition ?Edition;
-    ?AwardPlace ?URICommune
+    ?AwardEdition ?Edition;  
 }
 FROM <file:fr-esr-etoile-de-l-europe.csv> 
 WHERE{       
@@ -57,8 +83,7 @@ WHERE{
     
     BIND (URI('http://concours-etoiles-europe.org/ns#Mention') AS ?AwardMention)
     BIND (URI('http://concours-etoiles-europe.org/ns#Numéro_de_l_édition') AS ?NumEdition)
-    BIND (URI('http://concours-etoiles-europe.org/ns#Edition') AS ?AwardEdition)
-    BIND (URI(CONCAT('http://dbpedia.org/page/', ?Libellé_commune)) AS ?URICommune)
+    BIND (URI('http://concours-etoiles-europe.org/ns#Edition') AS ?AwardEdition)    
 }
 
 
