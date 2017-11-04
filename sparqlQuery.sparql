@@ -1,0 +1,13 @@
+
+# Retourne le nom de tous les vainqueurs du concours de l'année 2015 et leur mention si renseignée
+
+SELECT ?firstName ?familyName ?mention
+WHERE{
+	?x foaf:firstName ?firstName;
+	   foaf:familyName ?familyName;
+	   http://concours-etoiles-europe.org/ns#Award_Won ?award;
+
+	?award http://concours-etoiles-europe.org/ns#Edition "2015";
+	OPTIONNAL{?award http://concours-etoiles-europe.org/ns#Mention ?mention}
+}
+	
