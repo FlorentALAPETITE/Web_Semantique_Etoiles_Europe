@@ -10,7 +10,7 @@ CONSTRUCT {
     foaf:familyName ?nom;
     foaf:gender ?sexe;
     <http://concours-etoiles-europe.org/ns#Award_Won> ?AwardWon;
-    #<http://concours-etoiles-europe.org/ns#codeSexe> ?Code_sexe;
+    <http://concours-etoiles-europe.org/ns#codeSexe> ?Code_sexe;
 }
 FROM <file:fr-esr-etoile-de-l-europe.csv> 
 WHERE{
