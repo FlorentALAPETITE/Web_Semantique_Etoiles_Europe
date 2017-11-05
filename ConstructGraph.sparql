@@ -2,6 +2,7 @@ PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX doap: <http://usefulinc.com/ns/doap#>
+PREFIX owl: <http://www.w3.org/2002/07/owl>
 
 # Person
 CONSTRUCT {
@@ -9,6 +10,8 @@ CONSTRUCT {
     foaf:firstName ?prenom;
     foaf:familyName ?nom;
     foaf:gender ?sexe;
+    <http://concours-etoiles-europe.org/ns#IdRef> ?IdRef;
+    owl:sameAs ?Lien_IdRef;
     <http://concours-etoiles-europe.org/ns#Award_Won> ?AwardWon;
     <http://concours-etoiles-europe.org/ns#codeSexe> ?Code_sexe;
 }
