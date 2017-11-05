@@ -57,6 +57,7 @@ CONSTRUCT {
     ?LibelleStructure ?Libellé_de_structure;
     ?SigleStructure ?Sigle_de_structure;
     ?NatureStructure ?Nature_de_la_structure;
+    owl:sameAs ?Lien_scanR;
     dbo:Settlement ?URI_Commune;
 }
 FROM <file:fr-esr-etoile-de-l-europe.csv> 
