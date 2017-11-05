@@ -1,3 +1,6 @@
+PREFIX foaf:  <http://xmlns.com/foaf/0.1/> 
+PREFIX doap: <http://usefulinc.com/ns/doap#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
 
 # Retourne le nom de tous les vainqueurs du concours de l'année 2015 et leur mention si renseignée
 
@@ -5,21 +8,21 @@ SELECT ?firstName ?familyName ?mention
 WHERE{
 	?x foaf:firstName ?firstName;
 	   foaf:familyName ?familyName;
-	   http://concours-etoiles-europe.org/ns#Award_Won ?award.
+	   <http://concours-etoiles-europe.org/ns#Award_Won> ?award.
 
-	?award http://concours-etoiles-europe.org/ns#Edition "2015".
-	OPTIONNAL{?award http://concours-etoiles-europe.org/ns#Mention ?mention}
+	?award <http://concours-etoiles-europe.org/ns#Edition> "2015".
+	OPTIONAL{?award <http://concours-etoiles-europe.org/ns#Mention> ?mention}
 }
 
 # Retourne les années où l'award a été décerné à un.e parisien.ne
 
 SELECT ?year
 WHERE{
-	?award http://concours-etoiles-europe.org/ns#Edition ?year.
+	?award <http://concours-etoiles-europe.org/ns#Edition> ?year.
 	?person <http://concours-etoiles-europe.org/ns#Award_Won> ?award.
 	?project doap:maintainer ?person;
 		foaf:Organization ?firm.
-	?firm dbo:Settlement http://dbpedia.org/page/Paris.
+	?firm dbo:Settlement <http://dbpedia.org/page/Paris>.
 }
 	
 
