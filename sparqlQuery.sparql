@@ -27,5 +27,16 @@ WHERE{
         foaf:Organization ?firm.
     ?firm dbo:Settlement <http://dbpedia.org/page/Paris>.
 }
-	
+
+
+# Query inter-groupes // Retourne tous les "Pierre" qui ont reçu un prix
+
+SELECT ?firstName ?familyName
+FROM NAMED <http://concours-etoiles-europe.org/ns#>
+FROM NAMED <http://leurs-data/data#>
+WHERE{
+    ?x foaf:firstName ?firstName;
+        foaf:familyName ?familyName;
+        foaf:firstName “Pierre” .
+}
 
