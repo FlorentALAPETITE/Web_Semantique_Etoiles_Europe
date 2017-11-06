@@ -1,8 +1,12 @@
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX doap: <http://usefulinc.com/ns/doap#>
 PREFIX owl: <http://www.w3.org/2002/07/owl>
+PREFIX nous: <http://concours-etoiles-europe.org/ns>
 
 # Person
 CONSTRUCT {
@@ -10,10 +14,9 @@ CONSTRUCT {
     foaf:firstName ?prenom;
     foaf:familyName ?nom;
     foaf:gender ?sexe;
-    <http://concours-etoiles-europe.org/ns#IdRef> ?IdRef;
+    nous:id_ref ?IdRef;
     owl:sameAs ?Lien_IdRef;
-    <http://concours-etoiles-europe.org/ns#Award_Won> ?AwardWon;
-    <http://concours-etoiles-europe.org/ns#codeSexe> ?Code_sexe;
+    nous:Award_Won ?AwardWon;
 }
 FROM <file:fr-esr-etoile-de-l-europe.csv> 
 WHERE{
@@ -29,22 +32,16 @@ CONSTRUCT {
     doap:homepage ?Lien_Cordis;
     doap:description ?Résumé;
     doap:category ?Thematique;
-    ?TypeFinancement ?Type_financement;
-    ?CodeProgramme ?Code_du_programme;
-    ?CodeAppel ?Code_d_appel_à_projet;
-    ?AcronymeProjet ?Acronyme_du_projet;    
+    nous:type_financement ?Type_financement;
+    nous:code_programme ?Code_du_programme;
+    nous:code_appel ?Code_d_appel_à_projet;
+    nous:acronyme_projet ?Acronyme_du_projet;    
     foaf:Organization ?URI_Structure
 }
 FROM <file:fr-esr-etoile-de-l-europe.csv> 
 WHERE{
     BIND (URI(CONCAT('http://concours-etoiles-europe.org/ns#', ?prenom, '-' ,?nom)) AS ?person)
     BIND (URI(CONCAT('http://concours-etoiles-europe.org/ns#', ?Titre_du_projet)) AS ?URI)
-
-    BIND (URI('http://concours-etoiles-europe.org/ns#Type_financement') AS ?TypeFinancement)
-    BIND (URI('http://concours-etoiles-europe.org/ns#Code_du_programme') AS ?CodeProgramme)
-    BIND (URI('http://concours-etoiles-europe.org/ns#Code_d_appel_à_projet') AS ?CodeAppel)
-    BIND (URI('http://concours-etoiles-europe.org/ns#Acronyme_du_projet') AS ?AcronymeProjet)   
-    
 
     BIND (URI(CONCAT('http://concours-etoiles-europe.org/ns#', ?Libellé_de_structure)) AS ?URI_Structure)
 }
@@ -53,21 +50,16 @@ WHERE{
 # Organization
 CONSTRUCT {
     ?URI a foaf:Organization;
-    ?IdentifiantStructure ?Identifiant_de_structure;
-    ?LibelleStructure ?Libellé_de_structure;
-    ?SigleStructure ?Sigle_de_structure;
-    ?NatureStructure ?Nature_de_la_structure;
+    nous:identifiant_structure ?Identifiant_de_structure;
+    nous:libelle_structure ?Libellé_de_structure;
+    nous:sigle_structure ?Sigle_de_structure;
+    nous:nature_structure ?Nature_de_la_structure;
     owl:sameAs ?Lien_scanR;
     dbo:Settlement ?URI_Commune;
 }
 FROM <file:fr-esr-etoile-de-l-europe.csv> 
 WHERE{
     BIND (URI(CONCAT('http://concours-etoiles-europe.org/ns#', ?Libellé_de_structure)) AS ?URI)
-
-    BIND (URI('http://concours-etoiles-europe.org/ns#Identifiant_Structure') AS ?IdentifiantStructure)
-    BIND (URI('http://concours-etoiles-europe.org/ns#Libellé_Structure') AS ?LibelleStructure)
-    BIND (URI('http://concours-etoiles-europe.org/ns#Sigle_Structure') AS ?SigleStructure)
-    BIND (URI('http://concours-etoiles-europe.org/ns#Nature_Structure') AS ?NatureStructure)
     BIND (URI(CONCAT('http://dbpedia.org/page/', ?Libellé_commune)) AS ?URI_Commune)
 
 }
@@ -75,19 +67,13 @@ WHERE{
 
 # AwardWon
 CONSTRUCT {
-    ?URI a <http://concours-etoiles-europe.org/ns#Award_Won>;
+    ?URI a nous:Award_Won;
     dbo:Award ?Type_de_prix;
-    ?AwardMention ?Mention; 
-    ?NumEdition ?Numéro_de_l_édition;
-    ?AwardEdition ?Edition;  
+    nous:mention ?Mention; 
+    nous:numero_edition ?Numéro_de_l_édition;
+    nous:edition ?Edition;  
 }
 FROM <file:fr-esr-etoile-de-l-europe.csv> 
 WHERE{       
     BIND (URI(CONCAT('http://concours-etoiles-europe.org/ns#', ?Type_de_prix, ?nom)) AS ?URI)
-    
-    BIND (URI('http://concours-etoiles-europe.org/ns#Mention') AS ?AwardMention)
-    BIND (URI('http://concours-etoiles-europe.org/ns#Numéro_de_l_édition') AS ?NumEdition)
-    BIND (URI('http://concours-etoiles-europe.org/ns#Edition') AS ?AwardEdition)    
 }
-
-

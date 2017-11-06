@@ -1,0 +1,47 @@
+nous:type_financement rdf:type rdf:Property;
+        rdfs:range xsd:string;
+        rdfs:domain doap:Project.
+
+nous:code_programme rdf:type rdf:Property;
+        rdfs:range xsd:string;
+        rdfs:domain doap:Project.
+
+nous:code_appel rdf:type rdf:Property;
+        rdfs:range xsd:string;
+        rdfs:domain doap:Project.
+
+nous:acronyme_projet rdf:type rdf:Property;
+        rdfs:range xsd:string;
+        rdfs:domain doap:Project.
+
+nous:id_ref rdf:type rdf:Property;
+        rdfs:range xsd:integer;
+        rdfs:domain dbo:Person.
+
+nous:mention rdf:type rdf:Property;
+        rdfs:range xsd:string;
+        rdfs:domain nous:Award_Won.
+
+nous:numero_edition rdf:type rdf:Property;
+        rdfs:range xsd:integer;
+        rdfs:domain nous:Award_Won.
+
+nous:edition rdf:type rdf:Property;
+        rdfs:range xsd:integer;
+        rdfs:domain nous:Award_Won.
+
+nous:identifiant_structure rdf:type rdf:Property;
+        rdfs:range xsd:string;
+        rdfs:domain foaf:Organization.
+
+nous:libelle_structure rdf:type rdf:Property;
+        rdfs:range xsd:string;
+        rdfs:domain foaf:Organization.
+
+nous:sigle_structure rdf:type rdf:Property;
+        rdfs:range xsd:string;
+        rdfs:domain foaf:Organization.
+
+nous:nature_structure rdf:type rdf:Property;
+        rdfs:range xsd:string;
+        rdfs:domain foaf:Organization.
