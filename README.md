@@ -8,7 +8,7 @@ Pour lancer le projet, executer la ligne de commande suivante :
 Le résultat de la requête se trouve dans le fichier : "RDFGraph_Concours_Etoiles_Europes.ttl"
 
 ## Adaptation avec Jena Fuseki
-Dans la version *3.4* de Jena Fuseki, configurer un fichier run/configuration/Etoiles.ttl comme ceci:
+Dans la version *3.4* de Jena Fuseki, configurer un fichier **run/configuration/Etoiles.ttl** comme ceci:
 ```
 @prefix :      <http://base/#> .
 @prefix tdb:   <http://jena.hpl.hp.com/2008/tdb#> .
@@ -33,8 +33,9 @@ Dans la version *3.4* de Jena Fuseki, configurer un fichier run/configuration/Et
 <#model_inf> a ja:InfModel ;
      ja:baseModel <#graph> ;
      ja:reasoner [
-         ja:reasonerURL <http://jena.hpl.hp.com/2003/OWLFBRuleReasoner>
-     ] .
+        ja:rulesFrom <../../run/databases/rules.rules>;
+        ja:reasonerURL <http://jena.hpl.hp.com/2003/GenericRuleReasoner>; 
+    ] .
  
 <#graph> rdf:type tdb:GraphTDB ;
   tdb:dataset :tdb_dataset_readwrite .
@@ -43,4 +44,23 @@ Dans la version *3.4* de Jena Fuseki, configurer un fichier run/configuration/Et
         a             tdb:DatasetTDB ;
         tdb:location  "run/databases/etoiles"
         .
+```
+
+Ne pas oublier de mettre les inférences RDF dans un fichier **run/databases/rules.rules**, comme ceci : 
+```
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+[(?x ?a ?y) -> (?x rdf:type rdfs:Ressource)]
+[(?x ?a ?y) -> (?y rdf:type rdfs:Ressource)]
+[(?a rdfs:domain ?x) (?y ?a ?z) -> (?y rdf:type ?x)]
+[(?a rdfs:range ?x) (?y ?a ?z) -> (?z rdf:type ?x)]
+[(?x rdfs:subPropertyOf ?y) (?y rdfs:subPropertyOf ?z) -> (?x rdfs:subPropertyOf ?z)]
+[(?x rdf:type rdf:Property) -> (?x rdfs:subPropertyOf ?x)]
+[(?a rdfs:subPropertyOf ?b) (?x ?a ?y) -> (?x ?b ?y)]
+[(?x rdf:type rdfs:Class) -> (?x rdfs:subClassOf rdfs:Ressource)]
+[(?x rdfs:subClassOf ?y) (?z rdf:type ?x) -> (?z rdf:type ?y)]
+[(?x rdf:type rdfs:Class) -> (?x rdfs:subClassOf ?x)]
+[(?x rdfs:subClassOf ?y) (?y rdfs:subClassOf ?z) -> (?x rdfs:subClassOf ?z)]
+[(?x ?a rdfs:Datatype) -> (?x rdfs:subClassOf rdfs:Litteral)]
 ```
