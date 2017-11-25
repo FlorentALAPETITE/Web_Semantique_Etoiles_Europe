@@ -37,6 +37,13 @@ WHERE{
     FILTER regex(?name,".*Paris.*")
 }
 
+# Le nombre de projet lauréats en fonction du type de la structure
+
+SELECT ?nat (count(distinct ?projet) as ?nb_projets)
+WHERE {
+    ?projet nous:nature_structure ?nat.
+} GROUP BY ?nat ORDER BY ?nb_projets
+
 # Query inter-groupes // Retourne tous les "Pierre" qui ont reçu un prix
 
 SELECT ?firstName ?familyName
