@@ -1,3 +1,13 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax/> .
+@prefix doap:  <http://usefulinc.com/ns/doap#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema/> .
+@prefix nous:  <http://concours-etoiles-europe.org/ns#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
 nous:type_financement rdf:type rdf:Property;
         rdfs:range xsd:string;
         rdfs:domain doap:Project.

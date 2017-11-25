@@ -11,9 +11,9 @@ WHERE{
        foaf:familyName ?familyName ;
        nous:Award_Won ?award .
 
-    ?award nous:numero_edition "2015".
+    ?award nous:edition "2015".
     OPTIONAL{
-        ?award nous:Mention ?mention .
+        ?award nous:mention ?mention .
     }
 }
 
