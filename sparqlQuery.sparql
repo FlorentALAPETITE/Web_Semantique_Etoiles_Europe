@@ -8,13 +8,13 @@ PREFIX nous: <http://concours-etoiles-europe.org/ns#>
 SELECT ?firstName ?familyName ?mention
 WHERE{
     ?x foaf:firstName ?firstName ;
-       foaf:familyName ?familyName ;
-       nous:Award_Won ?award .
-
-    ?award nous:edition "2015".
+       foaf:familyName ?familyName;
+        schema:award ?award.
+  
+    ?award nous:edition "2016".
     OPTIONAL{
         ?award nous:mention ?mention .
-    }
+    }    
 }
 
 # Retourne les années où l'award a été décerné à un.e parisien.ne

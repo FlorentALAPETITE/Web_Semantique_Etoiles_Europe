@@ -24,7 +24,7 @@ CONSTRUCT {
 FROM <file:fr-esr-etoile-de-l-europe.csv> 
 WHERE{
     BIND (URI(CONCAT('http://concours-etoiles-europe.org/ns#', ?prenom, '-' ,?nom)) AS ?URI)
-    BIND (URI(CONCAT('http://concours-etoiles-europe.org/ns#', ?edition, '-', ?mention)) AS ?Award)
+    BIND (URI(CONCAT('http://concours-etoiles-europe.org/ns#', ?Edition, '-', ?Mention)) AS ?Award)
 }
 
 # Projet
