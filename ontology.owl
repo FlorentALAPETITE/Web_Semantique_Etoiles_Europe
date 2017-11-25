@@ -1,0 +1,103 @@
+<rdf:RDF 
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:owl="http://www.w3.org/2002/07/owl#"
+xmlns:dbo="http://dbpedia.org/ontology#"
+xmlns:nous="http://concours-etoiles-europe.org/ns#"
+xmlns:doap= "http://usefulinc.com/ns/doap#">
+
+
+<owl:Ontology rdf:ressource="nous:OntologyEtoiles">
+    <rdfs:comment
+      rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+      Ontology for Semantic Web project
+    </rdfs:comment>
+
+    <owl:versionInfo>v0.1</owl:versionInfo>
+
+</owl:Ontology>
+
+
+<rdf:Class rdf:ressource="nous:EtoilesDeLeurope">
+
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+
+    <rdfs:subClassOf rdf:ressource="dbo:Award"/> 
+
+    <rdfs:subClassOf rdf:ressource="schema:Award"/>
+
+</rdf:Class>
+
+
+<owl:ObjectProperty rdf:ressource="nous:type_financement"> 
+  <rdfs:range rdf:ressource="xsd:string"/>
+  <rdfs:domain rdf:ressource="doap:Project"/> 
+</owl:ObjectProperty>
+
+
+<owl:ObjectProperty rdf:ressource="nous:code_programme"> 
+  <rdfs:range rdf:ressource="xsd:string"/>
+  <rdfs:domain rdf:ressource="doap:Project"/> 
+</owl:ObjectProperty>
+
+
+<owl:ObjectProperty rdf:ressource="nous:code_appel"> 
+  <rdfs:range rdf:ressource="xsd:string"/>
+  <rdfs:domain rdf:ressource="doap:Project"/> 
+</owl:ObjectProperty>
+
+
+<owl:ObjectProperty rdf:ressource="nous:acronyme_projet"> 
+  <rdfs:range rdf:ressource="xsd:string"/>
+  <rdfs:domain rdf:ressource="doap:Project"/> 
+</owl:ObjectProperty>
+
+
+<owl:ObjectProperty rdf:ressource="nous:id_ref"> 
+  <rdfs:range rdf:ressource="xsd:integer"/>
+  <rdfs:domain rdf:ressource="dbo:Person"/> 
+</owl:ObjectProperty>
+
+
+<owl:ObjectProperty rdf:ressource="nous:mention"> 
+  <rdfs:range rdf:ressource="xsd:string"/>
+  <rdfs:domain rdf:ressource="nous:EtoilesDeLeurope"/> 
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:ressource="nous:numero_edition"> 
+  <rdfs:range rdf:ressource="xsd:integer"/>
+  <rdfs:domain rdf:ressource="nous:EtoilesDeLeurope"/> 
+</owl:ObjectProperty>
+
+
+<owl:ObjectProperty rdf:ressource="nous:edition"> 
+  <rdfs:range rdf:ressource="xsd:integer"/>
+  <rdfs:domain rdf:ressource="nous:EtoilesDeLeurope"/> 
+</owl:ObjectProperty>
+
+
+<owl:ObjectProperty rdf:ressource="nous:identifiant_structure"> 
+  <rdfs:range rdf:ressource="xsd:string"/>
+  <rdfs:domain rdf:ressource="foaf:Organization"/> 
+</owl:ObjectProperty>
+
+
+<owl:ObjectProperty rdf:ressource="nous:libelle_structure"> 
+  <rdfs:range rdf:ressource="xsd:string"/>
+  <rdfs:domain rdf:ressource="foaf:Organization"/> 
+</owl:ObjectProperty>
+
+
+<owl:ObjectProperty rdf:ressource="nous:sigle_structure"> 
+  <rdfs:range rdf:ressource="xsd:string"/>
+  <rdfs:domain rdf:ressource="foaf:Organization"/> 
+</owl:ObjectProperty>
+
+
+<owl:ObjectProperty rdf:ressource="nous:nature_structure"> 
+  <rdfs:range rdf:ressource="xsd:string"/>
+  <rdfs:domain rdf:ressource="foaf:Organization"/> 
+</owl:ObjectProperty>
+
+</rdf:RDF>
