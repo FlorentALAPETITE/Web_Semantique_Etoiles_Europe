@@ -3,7 +3,7 @@ PREFIX doap: <http://usefulinc.com/ns/doap#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX nous: <http://concours-etoiles-europe.org/ns#>
 
-# Retourne le nom de tous les vainqueurs du concours de l'année 2015 et leur mention si renseignée
+# Retourne le nom de tous les vainqueurs du concours de l'année 2016 et leur mention si renseignée
 
 SELECT ?firstName ?familyName ?mention
 WHERE{
@@ -17,17 +17,25 @@ WHERE{
     }    
 }
 
-# Retourne les années où l'award a été décerné à un.e parisien.ne
+# Retourne les années où l'award a été décerné à un.e parisien.ne ainsi que son prénom et son nom
 
-SELECT ?year
+SELECT ?year ?firstName ?familyName 
 WHERE{
-    ?award nous:numero_edition ?year.
-    ?person nous:Award_Won ?award.
-    ?project doap:maintainer ?person;
-        foaf:Organization ?firm.
-    ?firm dbo:Settlement <http://dbpedia.org/page/Paris>.
+    ?person schema:award ?award;
+            foaf:firstName ?firstName;
+            foaf:familyName ?familyName.
+    ?award nous:edition ?year.    
+  
+    ?project dbo:creator ?person;
+       dbo:creator ?firm.   
+    
+  
+    ?firm rdf:type foaf:Organization;
+     dbo:location ?location.
+  
+    ?location foaf:name ?name.
+    FILTER regex(?name,".*Paris.*")
 }
-
 
 # Query inter-groupes // Retourne tous les "Pierre" qui ont reçu un prix
 
