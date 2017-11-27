@@ -9,6 +9,7 @@ PREFIX schema: <http://schema.org/>
 PREFIX owl: <http://www.w3.org/2002/07/owl>
 PREFIX igeo:<http://rdf.insee.fr/def/geo#>
 PREFIX nous: <http://concours-etoiles-europe.org/ns#>
+PREFIX w3geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
 
 # Person
 CONSTRUCT {
@@ -75,6 +76,8 @@ CONSTRUCT {
         foaf:name ?Libellé_commune;
         igeo:subdivisionDe ?URI_UniteUrbaine;
         dbp:department ?URI_Departement;
+        w3geo:long ?lat;
+        w3geo:lat ?long;
         owl:sameAs ?DBP_Commune .
 
     ?URI_UniteUrbaine a igeo:UniteUrbaine;
@@ -104,6 +107,9 @@ WHERE{
     BIND (URI(CONCAT('http://fr.dbpedia.org/page/', ?Libellé_commune)) AS ?DBP_Commune)
     BIND (URI(CONCAT('http://fr.dbpedia.org/page/', ?Libellé_département)) AS ?DBP_Department)
     BIND (URI(CONCAT('http://fr.dbpedia.org/page/', ?Libellé_région)) AS ?DBP_Region)
+
+    BIND( STRDT(STRBEFORE(?Géolocalisation, ","), xsd:float) AS ?lat)
+    BIND( STRDT(SUBSTR(STRAFTER(?Géolocalisation, ","), 2), xsd:float) AS ?long)
 
 }
 
