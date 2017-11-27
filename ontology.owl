@@ -13,20 +13,15 @@ xmlns:doap= "http://usefulinc.com/ns/doap#">
       rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
       Ontology for Semantic Web project
     </rdfs:comment>
-
     <owl:versionInfo>v0.1</owl:versionInfo>
 
 </owl:Ontology>
 
 
 <rdf:Class rdf:ressource="nous:EtoilesDeLeurope">
-
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-
     <rdfs:subClassOf rdf:ressource="dbo:Award"/> 
-
     <rdfs:subClassOf rdf:ressource="schema:Award"/>
-
 </rdf:Class>
 
 
