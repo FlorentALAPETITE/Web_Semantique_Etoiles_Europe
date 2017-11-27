@@ -109,8 +109,6 @@ WHERE{
 
 
 # Award
-# owl:subClassOf dbo:Award;
-# owl:subClassOf schema:Award;
 CONSTRUCT {
     ?URI a nous:EtoilesDeLeurope;
     nous:typeDePrix ?Type_de_prix;
