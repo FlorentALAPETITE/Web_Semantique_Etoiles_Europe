@@ -2,6 +2,8 @@ PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
 PREFIX doap: <http://usefulinc.com/ns/doap#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX nous: <http://concours-etoiles-europe.org/ns#>
+PREFIX schema: <http://schema.org/>
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax/>
 
 # Retourne le nom de tous les vainqueurs du concours de l'année 2016 et leur mention si renseignée
 
@@ -30,7 +32,7 @@ WHERE{
        dbo:creator ?firm.   
     
   
-    ?firm rdf:type foaf:Organization;
+    ?firm a foaf:Organization;
      dbo:location ?location.
   
     ?location foaf:name ?name.
