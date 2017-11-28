@@ -72,7 +72,7 @@ WHERE{
 CONSTRUCT {
     ?URI_Commune a dbo:Settlement;
         a igeo:CommuneOuAssimilee;
-        dbp:postalCode ?Code_commune;
+        dbp:postalCode ?Code_commune_int;
         foaf:name ?Libellé_commune;
         igeo:subdivisionDe ?URI_UniteUrbaine;
         dbp:department ?URI_Departement;
@@ -87,13 +87,13 @@ CONSTRUCT {
 
     ?URI_Departement a igeo:Departement;
         a dbo:Department;
-        igeo:codeINSEE ?Code_département;
+        igeo:codeINSEE ?Code_département_int;
         foaf:name ?Libellé_département;
         dbo:region ?URI_Region;
         owl:sameAs ?DBP_Department.
 
     ?URI_Region a dbo:region;
-        igeo:codeINSEE ?Code_région ;
+        igeo:codeINSEE ?Code_région_int ;
         foaf:name ?Libellé_région;
         owl:sameAs ?DBP_Region.
 
@@ -108,6 +108,9 @@ WHERE{
     BIND (URI(CONCAT('http://fr.dbpedia.org/page/', ?Libellé_département)) AS ?DBP_Department)
     BIND (URI(CONCAT('http://fr.dbpedia.org/page/', ?Libellé_région)) AS ?DBP_Region)
 
+    BIND( STRDT(?Code_commune, xsd:integer) AS ?Code_commune_int)
+    BIND( STRDT(?Code_département, xsd:integer) AS ?Code_département_int)
+    BIND( STRDT(?Code_région, xsd:integer) AS ?Code_région_int)
     BIND( STRDT(STRBEFORE(?Géolocalisation, ","), xsd:float) AS ?lat)
     BIND( STRDT(SUBSTR(STRAFTER(?Géolocalisation, ","), 2), xsd:float) AS ?long)
 
@@ -119,10 +122,13 @@ CONSTRUCT {
     ?URI a nous:EtoilesDeLeurope;
     nous:typeDePrix ?Type_de_prix;
     nous:mention ?Mention; 
-    nous:numero_edition ?Numéro_de_l_édition;
-    nous:edition ?Edition.  
+    nous:numero_edition ?Numéro_de_l_édition_int;
+    nous:edition ?Edition_int.
 }
 FROM <file:fr-esr-etoile-de-l-europe.csv> 
 WHERE{       
     BIND (URI(CONCAT('http://concours-etoiles-europe.org/ns#', ?Edition, '-', ?Mention)) AS ?URI)
+
+    BIND( STRDT(?Numéro_de_l_édition, xsd:integer) AS ?Numéro_de_l_édition_int)
+    BIND( STRDT(?Edition, xsd:integer) AS ?Edition_int)
 }
