@@ -628,11 +628,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D092" ;
-        projet:dep                     <projet:Hauts-de-Seine> ;
+        projet:dep                     projet:Hauts-de-Seine ;
         projet:aca_id                  "A25" ;
         projet:aca                     <dbpedia-fr:Versailles> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         owl:sameAs                     <http://localhost:3333/IFP%20Energies%20nouvelles> .
 
 <http://websm.org/institution/CEE>
@@ -658,11 +658,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D093" ;
-        projet:dep                     <projet:Seine-Saint-Denis> ;
+        projet:dep                     projet:Seine-Saint-Denis ;
         projet:aca_id                  "A24" ;
         projet:aca                     <dbpedia-fr:Cr%C3%A9teil> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         projet:numero_siren_siret_uai  "18003804400020" ;
         owl:sameAs                     <http://localhost:3333/Centre%20d'%C3%A9tudes%20de%20l'emploi> .
 
@@ -686,11 +686,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D075" ;
-        projet:dep                     <projet:Paris> ;
+        projet:dep                     projet:Paris ;
         projet:aca_id                  "A01" ;
         projet:aca                     <dbpedia-fr:Paris> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         owl:sameAs                     <http://localhost:3333/BPI%20France> .
 
 <http://websm.org/institution/BRGM>
@@ -719,11 +719,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D075" ;
-        projet:dep                     <projet:Paris> ;
+        projet:dep                     projet:Paris ;
         projet:aca_id                  "A01" ;
         projet:aca                     <dbpedia-fr:Paris> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         projet:numero_siren_siret_uai  "40070693300019" ;
         owl:sameAs                     <http://localhost:3333/Bureau%20de%20recherches%20g%C3%A9ologiques%20et%20mini%C3%A8res> .
 
@@ -752,11 +752,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU49701" ;
         projet:uucr_nom                "Angers" ;
         projet:dep_id                  "D049" ;
-        projet:dep                     <projet:Maine-et-Loire> ;
+        projet:dep                     projet:Maine-et-Loire ;
         projet:aca_id                  "A17" ;
         projet:aca                     <dbpedia-fr:Nantes> ;
         projet:reg_id                  "R52" ;
-        projet:reg                     <projet:Pays_de_la_Loire> ;
+        projet:reg                     projet:Pays_de_la_Loire ;
         projet:numero_siren_siret_uai  "41883990800013" ;
         owl:sameAs                     <http://localhost:3333/Agence%20de%20l'environnement%20et%20de%20la%20ma%C3%AEtrise%20de%20l'%C3%A9nergie> .
 
@@ -780,11 +780,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D075" ;
-        projet:dep                     <projet:Paris> ;
+        projet:dep                     projet:Paris ;
         projet:aca_id                  "A01" ;
         projet:aca                     <dbpedia-fr:Paris> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         owl:sameAs                     <http://localhost:3333/Centre%20d'%C3%A9tude%20du%20polymorphisme%20humain> .
 
 <http://websm.org/institution/ANS%C3%A9S>
@@ -810,11 +810,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D094" ;
-        projet:dep                     <projet:Val-de-Marne> ;
+        projet:dep                     projet:Val-de-Marne ;
         projet:aca_id                  "A24" ;
         projet:aca                     <dbpedia-fr:Cr%C3%A9teil> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         owl:sameAs                     <http://localhost:3333/Agence%20nationale%20de%20s%C3%A9curit%C3%A9%20sanitaire,%20de%20l'alimentation,%20de%20l'environnement%20et%20du%20travail> .
 
 <http://websm.org/institution/IRSTEA>
@@ -843,11 +843,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D092" ;
-        projet:dep                     <projet:Hauts-de-Seine> ;
+        projet:dep                     projet:Hauts-de-Seine ;
         projet:aca_id                  "A25" ;
         projet:aca                     <dbpedia-fr:Versailles> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         projet:numero_siren_siret_uai  "18007001300107" ;
         owl:sameAs                     <http://localhost:3333/Institut%20national%20de%20recherche%20en%20sciences%20et%20technologies%20pour%20l'environnement%20et%20l'agriculture> .
 
@@ -876,11 +876,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00759" ;
         projet:uucr_nom                "Marseille - Aix-en-Provence" ;
         projet:dep_id                  "D013" ;
-        projet:dep                     <projet:Bouches-du-Rh%C3%B4ne> ;
+        projet:dep                     projet:Bouches-du-Rhône ;
         projet:aca_id                  "A02" ;
         projet:aca                     <dbpedia-fr:Aix-Marseille> ;
         projet:reg_id                  "R93" ;
-        projet:reg                     <projet:Provence-Alpes-C%C3%B4te_d'Azur> ;
+        projet:reg                     <http://websm.org/projet/Provence-Alpes-C%C3%B4te_d'Azur> ;
         owl:sameAs                     <http://localhost:3333/Centre%20d'Etudes%20et%20de%20Recherches%20sur%20les%20Qualifications> .
 
 <http://websm.org/institution/INSERM>
@@ -907,11 +907,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D075" ;
-        projet:dep                     <projet:Paris> ;
+        projet:dep                     projet:Paris ;
         projet:aca_id                  "A01" ;
         projet:aca                     <dbpedia-fr:Paris> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         projet:numero_siren_siret_uai  "18003604800015" ;
         owl:sameAs                     <http://localhost:3333/Institut%20national%20de%20la%20sant%C3%A9%20et%20de%20la%20recherche%20m%C3%A9dicale> .
 
@@ -941,11 +941,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D078" ;
-        projet:dep                     <projet:Yvelines> ;
+        projet:dep                     projet:Yvelines ;
         projet:aca_id                  "A25" ;
         projet:aca                     <dbpedia-fr:Versailles> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         projet:numero_siren_siret_uai  "18008904700013" ;
         owl:sameAs                     <http://localhost:3333/Institut%20national%20de%20recherche%20en%20informatique%20et%20en%20automatique> .
 
@@ -973,11 +973,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D075" ;
-        projet:dep                     <projet:Paris> ;
+        projet:dep                     projet:Paris ;
         projet:aca_id                  "A01" ;
         projet:aca                     <dbpedia-fr:Paris> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         projet:numero_siren_siret_uai  "18003702000021" ;
         owl:sameAs                     <http://localhost:3333/Institut%20national%20des%20%C3%A9tudes%20d%C3%A9mographiques> .
 
@@ -1005,11 +1005,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D092" ;
-        projet:dep                     <projet:Hauts-de-Seine> ;
+        projet:dep                     projet:Hauts-de-Seine ;
         projet:aca_id                  "A25" ;
         projet:aca                     <dbpedia-fr:Versailles> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         owl:sameAs                     <http://localhost:3333/Agence%20nationale%20de%20gestion%20des%20d%C3%A9chets%20radioactifs> .
 
 <http://websm.org/institution/INCa>
@@ -1034,11 +1034,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D092" ;
-        projet:dep                     <projet:Hauts-de-Seine> ;
+        projet:dep                     projet:Hauts-de-Seine ;
         projet:aca_id                  "A25" ;
         projet:aca                     <dbpedia-fr:Versailles> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         owl:sameAs                     <http://localhost:3333/Institut%20national%20du%20Cancer> .
 
 <http://websm.org/institution/CIRAD>
@@ -1065,11 +1065,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D075" ;
-        projet:dep                     <projet:Paris> ;
+        projet:dep                     projet:Paris ;
         projet:aca_id                  "A01" ;
         projet:aca                     <dbpedia-fr:Paris> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         projet:numero_siren_siret_uai  "33159627000040" ;
         owl:sameAs                     <http://localhost:3333/Centre%20de%20coop%C3%A9ration%20internationale%20en%20recherche%20agronomique%20pour%20le%20d%C3%A9veloppement> .
 
@@ -1095,11 +1095,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D075" ;
-        projet:dep                     <projet:Paris> ;
+        projet:dep                     projet:Paris ;
         projet:aca_id                  "A01" ;
         projet:aca                     <dbpedia-fr:Paris> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         owl:sameAs                     <http://localhost:3333/Observatoire%20des%20sciences%20et%20techniques> .
 
 <http://websm.org/institution/IHEST>
@@ -1125,11 +1125,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D075" ;
-        projet:dep                     <projet:Paris> ;
+        projet:dep                     projet:Paris ;
         projet:aca_id                  "A01" ;
         projet:aca                     <dbpedia-fr:Paris> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         owl:sameAs                     <http://localhost:3333/Institut%20des%20hautes%20%C3%A9tudes%20pour%20la%20science%20et%20la%20technologie> .
 
 <http://websm.org/institution/CEA>
@@ -1157,11 +1157,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D091" ;
-        projet:dep                     <projet:Essonne> ;
+        projet:dep                     projet:Essonne ;
         projet:aca_id                  "A25" ;
         projet:aca                     <dbpedia-fr:Versailles> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         projet:numero_siren_siret_uai  "77568501900587" ;
         owl:sameAs                     <http://localhost:3333/Commissariat%20%C3%A0%20l'%C3%A9nergie%20atomique%20et%20aux%20%C3%A9nergies%20alternatives> .
 
@@ -1190,11 +1190,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D092" ;
-        projet:dep                     <projet:Hauts-de-Seine> ;
+        projet:dep                     projet:Hauts-de-Seine ;
         projet:aca_id                  "A25" ;
         projet:aca                     <dbpedia-fr:Versailles> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         projet:numero_siren_siret_uai  "33071536800297" ;
         owl:sameAs                     <http://localhost:3333/Institut%20fran%C3%A7ais%20de%20recherche%20pour%20l'exploitation%20de%20la%20mer> .
 
@@ -1222,11 +1222,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D075" ;
-        projet:dep                     <projet:Paris> ;
+        projet:dep                     projet:Paris ;
         projet:aca_id                  "A01" ;
         projet:aca                     <dbpedia-fr:Paris> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         projet:numero_siren_siret_uai  "18009226400019" ;
         owl:sameAs                     <http://localhost:3333/Institut%20national%20de%20recherches%20arch%C3%A9ologiques%20pr%C3%A9ventives> .
 
@@ -1255,11 +1255,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00759" ;
         projet:uucr_nom                "Marseille - Aix-en-Provence" ;
         projet:dep_id                  "D013" ;
-        projet:dep                     <projet:Bouches-du-Rh%C3%B4ne> ;
+        projet:dep                     projet:Bouches-du-Rhône ;
         projet:aca_id                  "A02" ;
         projet:aca                     <dbpedia-fr:Aix-Marseille> ;
         projet:reg_id                  "R93" ;
-        projet:reg                     <projet:Provence-Alpes-C%C3%B4te_d'Azur> ;
+        projet:reg                     <http://websm.org/projet/Provence-Alpes-C%C3%B4te_d'Azur> ;
         projet:numero_siren_siret_uai  "18000602500159" ;
         owl:sameAs                     <http://localhost:3333/institut%20de%20recherche%20pour%20le%20d%C3%A9veloppement> .
 
@@ -1286,11 +1286,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D075" ;
-        projet:dep                     <projet:Paris> ;
+        projet:dep                     projet:Paris ;
         projet:aca_id                  "A01" ;
         projet:aca                     <dbpedia-fr:Paris> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         projet:numero_siren_siret_uai  "31332024400012" ;
         owl:sameAs                     <http://localhost:3333/Laboratoire%20national%20de%20m%C3%A9trologie%20et%20d'essais> .
 
@@ -1319,11 +1319,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D075" ;
-        projet:dep                     <projet:Paris> ;
+        projet:dep                     projet:Paris ;
         projet:aca_id                  "A01" ;
         projet:aca                     <dbpedia-fr:Paris> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         projet:numero_siren_siret_uai  "18009214000011" ;
         owl:sameAs                     <http://localhost:3333/Etablissement%20public%20du%20mus%C3%A9e%20du%20quai%20Branly> .
 
@@ -1346,11 +1346,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00758" ;
         projet:uucr_nom                "Lyon" ;
         projet:dep_id                  "D069" ;
-        projet:dep                     <projet:Rh%C3%B4ne> ;
+        projet:dep                     projet:Rhône ;
         projet:aca_id                  "A10" ;
         projet:aca                     <dbpedia-fr:Lyon> ;
         projet:reg_id                  "R82" ;
-        projet:reg                     <projet:Rh%C3%B4ne-Alpes> ;
+        projet:reg                     projet:Rhône-Alpes ;
         owl:sameAs                     <http://localhost:3333/Institut%20fran%C3%A7ais%20de%20l'%C3%A9ducation> .
 
 <http://websm.org/institution/CNES>
@@ -1379,11 +1379,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D075" ;
-        projet:dep                     <projet:Paris> ;
+        projet:dep                     projet:Paris ;
         projet:aca_id                  "A01" ;
         projet:aca                     <dbpedia-fr:Paris> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%EF%BF%BD%EF%BF%BDle-de-France> ;
+        projet:reg                     <http://websm.org/projet/%EF%BF%BD%EF%BF%BDle-de-France> ;
         projet:numero_siren_siret_uai  "77566591200082" ;
         owl:sameAs                     <http://localhost:3333/Centre%20national%20d'%C3%A9tudes%20spatiales> .
 
@@ -1411,11 +1411,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D094" ;
-        projet:dep                     <projet:Val-de-Marne> ;
+        projet:dep                     projet:Val-de-Marne ;
         projet:aca_id                  "A24" ;
         projet:aca                     <dbpedia-fr:Cr%C3%A9teil> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         owl:sameAs                     <http://localhost:3333/M%C3%A9t%C3%A9o-France> .
 
 <http://websm.org/institution/Universcience>
@@ -1443,11 +1443,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D075" ;
-        projet:dep                     <projet:Paris> ;
+        projet:dep                     projet:Paris ;
         projet:aca_id                  "A01" ;
         projet:aca                     <dbpedia-fr:Paris> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         projet:numero_siren_siret_uai  "51958785100014" ;
         owl:sameAs                     <http://localhost:3333/Universcience> .
 
@@ -1476,11 +1476,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D092" ;
-        projet:dep                     <projet:Hauts-de-Seine> ;
+        projet:dep                     projet:Hauts-de-Seine ;
         projet:aca_id                  "A25" ;
         projet:aca                     <dbpedia-fr:Versailles> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         projet:numero_siren_siret_uai  "77572287900100" ;
         owl:sameAs                     <http://localhost:3333/Office%20national%20d'%C3%A9tudes%20et%20de%20recherches%20a%C3%A9ronautiques> .
 
@@ -1504,11 +1504,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU59702" ;
         projet:uucr_nom                "Lille" ;
         projet:dep_id                  "D059" ;
-        projet:dep                     <projet:Nord> ;
+        projet:dep                     projet:Nord ;
         projet:aca_id                  "A09" ;
         projet:aca                     <dbpedia-fr:Lille> ;
         projet:reg_id                  "R31" ;
-        projet:reg                     <projet:Nord-Pas-de-Calais> ;
+        projet:reg                     projet:Nord-Pas-de-Calais ;
         owl:sameAs                     <http://localhost:3333/Institut%20Pasteur%20de%20Lille> .
 
 <http://websm.org/institution/BnF>
@@ -1534,11 +1534,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D075" ;
-        projet:dep                     <projet:Paris> ;
+        projet:dep                     projet:Paris ;
         projet:aca_id                  "A01" ;
         projet:aca                     <dbpedia-fr:Paris> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         owl:sameAs                     <http://localhost:3333/Biblioth%C3%A8que%20nationale%20de%20France> .
 
 <http://websm.org/institution/IGN>
@@ -1564,11 +1564,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D094" ;
-        projet:dep                     <projet:Val-de-Marne> ;
+        projet:dep                     projet:Val-de-Marne ;
         projet:aca_id                  "A24" ;
         projet:aca                     <dbpedia-fr:Cr%C3%A9teil> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         owl:sameAs                     <http://localhost:3333/Institut%20national%20de%20l'information%20g%C3%A9ographique%20et%20foresti%C3%A8re> .
 
 <http://websm.org/institution/Curie>
@@ -1592,11 +1592,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D075" ;
-        projet:dep                     <projet:Paris> ;
+        projet:dep                     projet:Paris ;
         projet:aca_id                  "A01" ;
         projet:aca                     <dbpedia-fr:Paris> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         owl:sameAs                     <http://localhost:3333/Institut%20Curie> .
 
 <http://websm.org/institution/CAMPUS%20FRANCE>
@@ -1622,11 +1622,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D075" ;
-        projet:dep                     <projet:Paris> ;
+        projet:dep                     projet:Paris ;
         projet:aca_id                  "A01" ;
         projet:aca                     <dbpedia-fr:Paris> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         owl:sameAs                     <http://localhost:3333/Agence%20de%20promotion%20des%20formations%20et%20des%20%C3%A9changes%20%C3%A9ducatifs%20et%20scientifiques> .
 
 <http://websm.org/institution/ANR>
@@ -1654,11 +1654,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D075" ;
-        projet:dep                     <projet:Paris> ;
+        projet:dep                     projet:Paris ;
         projet:aca_id                  "A01" ;
         projet:aca                     <dbpedia-fr:Paris> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         owl:sameAs                     <http://localhost:3333/Agence%20nationale%20de%20la%20recherche> .
 
 <http://websm.org/institution/G%C3%A9nopole>
@@ -1686,11 +1686,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D091" ;
-        projet:dep                     <projet:Essonne> ;
+        projet:dep                     projet:Essonne ;
         projet:aca_id                  "A25" ;
         projet:aca                     <dbpedia-fr:Versailles> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         owl:sameAs                     <http://localhost:3333/G%C3%A9nopole> .
 
 <http://websm.org/institution/GEODERIS>
@@ -1713,11 +1713,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU57701" ;
         projet:uucr_nom                "Metz" ;
         projet:dep_id                  "D057" ;
-        projet:dep                     <projet:Moselle> ;
+        projet:dep                     projet:Moselle ;
         projet:aca_id                  "A12" ;
         projet:aca                     <dbpedia-fr:Nancy-Metz> ;
         projet:reg_id                  "R41" ;
-        projet:reg                     <projet:Lorraine> ;
+        projet:reg                     projet:Lorraine ;
         owl:sameAs                     <http://localhost:3333/Groupement%20d'Int%C3%A9r%C3%AAt%20Public%20INERIS/BRGM> .
 
 <http://websm.org/institution/AFR>
@@ -1740,11 +1740,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:libelle_programme_lolf_chef_de_file  "Transmission des savoirs et démocratisation de la culture" ;
         projet:com_nom                 "Rome" ;
         projet:dep_id                  "D999" ;
-        projet:dep                     <projet:%C3%89tranger> ;
+        projet:dep                     projet:Étranger ;
         projet:aca_id                  "A99" ;
         projet:aca                     <dbpedia-fr:Non_d%C3%A9fini> ;
         projet:reg_id                  "R99" ;
-        projet:reg                     <projet:%C3%89tranger> ;
+        projet:reg                     projet:Étranger ;
         owl:sameAs                     <http://localhost:3333/Acad%C3%A9mie%20de%20France%20%C3%A0%20Rome> .
 
 <http://websm.org/institution/INRA>
@@ -1772,11 +1772,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D075" ;
-        projet:dep                     <projet:Paris> ;
+        projet:dep                     projet:Paris ;
         projet:aca_id                  "A01" ;
         projet:aca                     <dbpedia-fr:Paris> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         projet:numero_siren_siret_uai  "18007003901803" ;
         owl:sameAs                     <http://localhost:3333/Institut%20national%20de%20la%20recherche%20agronomique> .
 
@@ -1806,11 +1806,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D077" ;
-        projet:dep                     <projet:Seine-et-Marne> ;
+        projet:dep                     projet:Seine-et-Marne ;
         projet:aca_id                  "A24" ;
         projet:aca                     <dbpedia-fr:Cr%C3%A9teil> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         projet:numero_siren_siret_uai  "13001342800078" ;
         owl:sameAs                     <http://localhost:3333/Institut%20fran%C3%A7ais%20des%20sciences%20et%20technologies%20des%20transports,%20de%20l'am%C3%A9nagement%20et%20des%20r%C3%A9seaux> .
 
@@ -1840,11 +1840,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D092" ;
-        projet:dep                     <projet:Hauts-de-Seine> ;
+        projet:dep                     projet:Hauts-de-Seine ;
         projet:aca_id                  "A25" ;
         projet:aca                     <dbpedia-fr:Versailles> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         projet:numero_siren_siret_uai  "44054601800027" ;
         owl:sameAs                     <http://localhost:3333/Institut%20de%20radioprotection%20et%20de%20s%C3%BBret%C3%A9%20nucl%C3%A9aire> .
 
@@ -1871,11 +1871,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU29701" ;
         projet:uucr_nom                "Brest" ;
         projet:dep_id                  "D029" ;
-        projet:dep                     <projet:Finist%C3%A8re> ;
+        projet:dep                     projet:Finistère ;
         projet:aca_id                  "A14" ;
         projet:aca                     <dbpedia-fr:Rennes> ;
         projet:reg_id                  "R53" ;
-        projet:reg                     <projet:Bretagne> ;
+        projet:reg                     projet:Bretagne ;
         owl:sameAs                     <http://localhost:3333/Service%20hydrographique%20et%20oc%C3%A9anographique%20de%20la%20marine> .
 
 <http://websm.org/institution/Mission%20de%20recherche%20Droit%20et%20Justice>
@@ -1898,11 +1898,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D075" ;
-        projet:dep                     <projet:Paris> ;
+        projet:dep                     projet:Paris ;
         projet:aca_id                  "A01" ;
         projet:aca                     <dbpedia-fr:Paris> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         owl:sameAs                     <http://localhost:3333/Mission%20de%20recherche%20Droit%20et%20Justice> .
 
 <http://websm.org/institution/Acad%C3%A9mie%20des%20technologies>
@@ -1931,11 +1931,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D075" ;
-        projet:dep                     <projet:Paris> ;
+        projet:dep                     projet:Paris ;
         projet:aca_id                  "A01" ;
         projet:aca                     <dbpedia-fr:Paris> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         owl:sameAs                     <http://localhost:3333/Acad%C3%A9mie%20des%20technologies> .
 
 <http://websm.org/institution/Pasteur>
@@ -1959,11 +1959,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D075" ;
-        projet:dep                     <projet:Paris> ;
+        projet:dep                     projet:Paris ;
         projet:aca_id                  "A01" ;
         projet:aca                     <dbpedia-fr:Paris> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         owl:sameAs                     <http://localhost:3333/Institut%20Pasteur> .
 
 <http://websm.org/institution/CNRS>
@@ -1990,11 +1990,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU00851" ;
         projet:uucr_nom                "Paris" ;
         projet:dep_id                  "D075" ;
-        projet:dep                     <projet:Paris> ;
+        projet:dep                     projet:Paris ;
         projet:aca_id                  "A01" ;
         projet:aca                     <dbpedia-fr:Paris> ;
         projet:reg_id                  "R11" ;
-        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:reg                     projet:Île-de-France ;
         projet:numero_siren_siret_uai  "18008901303720" ;
         owl:sameAs                     <http://localhost:3333/Centre%20national%20de%20la%20recherche%20scientifique> .
 
@@ -2021,11 +2021,11 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU29701" ;
         projet:uucr_nom                "Brest" ;
         projet:dep_id                  "D029" ;
-        projet:dep                     <projet:Finist%C3%A8re> ;
+        projet:dep                     projet:Finistère ;
         projet:aca_id                  "A14" ;
         projet:aca                     <dbpedia-fr:Rennes> ;
         projet:reg_id                  "R53" ;
-        projet:reg                     <projet:Bretagne> ;
+        projet:reg                     projet:Bretagne ;
         owl:sameAs                     <http://localhost:3333/Institut%20polaire%20fran%C3%A7ais%20Paul-%C3%89mile%20Victor> .
 
 <http://websm.org/institution/INERIS>
@@ -2052,10 +2052,10 @@ projet:Oise  rdf:type  projet:Departement ;
         projet:uucr_id                 "UU60601" ;
         projet:uucr_nom                "Creil" ;
         projet:dep_id                  "D060" ;
-        projet:dep                     <projet:Oise> ;
+        projet:dep                     projet:Oise ;
         projet:aca_id                  "A20" ;
         projet:aca                     <dbpedia-fr:Amiens> ;
         projet:reg_id                  "R22" ;
-        projet:reg                     <projet:Picardie> ;
+        projet:reg                     projet:Picardie ;
         projet:numero_siren_siret_uai  "38198492100019" ;
         owl:sameAs                     <http://localhost:3333/Institut%20national%20de%20l'environnement%20industriel%20et%20des%20risques> .

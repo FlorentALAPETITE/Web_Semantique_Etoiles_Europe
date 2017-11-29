@@ -49,11 +49,26 @@ WHERE {
 # Query inter-groupes // Retourne tous les "Pierre" qui ont reçu un prix
 
 SELECT ?firstName ?familyName
-FROM NAMED <http://concours-etoiles-europe.org/ns#>
-FROM NAMED <http://leurs-data/data#>
 WHERE{
     ?x foaf:firstName ?firstName;
         foaf:familyName ?familyName;
         foaf:firstName “Pierre” .
 }
+
+
+# Les départements en commun et le nombre d'organisation dans chaque graphe
+
+SELECT  DISTINCT ?departementAutreGroupe (count(distinct ?firm) as ?nb_firms) (count(distinct ?institution) as ?nb_institutions)
+  WHERE {
+    ?firm dbo:location ?location.
+  
+    ?location dbp:department ?departement.
+  
+    ?departement  owl:sameAs ?departementAutreGroupe.
+     
+    GRAPH <http://localhost:3030/Etoiles/data/grapheAutreGroupe> {
+        ?institution projet:dep ?departementAutreGroupe.
+    }
+
+  } GROUP BY ?departementAutreGroupe ORDER BY ?departementAutreGroupe
 
