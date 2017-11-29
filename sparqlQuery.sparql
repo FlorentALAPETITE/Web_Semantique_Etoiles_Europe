@@ -56,9 +56,9 @@ WHERE{
 }
 
 
-# Les départements en commun et le nombre d'organisation dans chaque graphe
+# Les départements en commun et le nombre d'organisations dans chaque graphe
 
-SELECT  DISTINCT ?departementAutreGroupe (count(distinct ?firm) as ?nb_firms) (count(distinct ?institution) as ?nb_institutions)
+SELECT DISTINCT ?departementAutreGroupe (count(distinct ?firm) as ?nb_firms) (count(distinct ?institution) as ?nb_institutions)
   WHERE {
     ?firm dbo:location ?location.
   
