@@ -13,4 +13,6 @@ Les inférences RDF se trouvent dans un fichier **jena-fuseki-3.4.0/run/database
 
 Pour lancer Jena Fuseki sur **localhost:3030**: 
 ```cd jena-fuseki-3.4.0
-./fuseki-server --update --mem /ds```
+./fuseki-server --update```
+
+Les données sont déjà présentes dans fuseki au lancement ;)
