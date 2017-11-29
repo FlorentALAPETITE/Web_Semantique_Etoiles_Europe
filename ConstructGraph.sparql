@@ -20,12 +20,14 @@ CONSTRUCT {
     foaf:gender ?sexe;
     nous:id_ref ?IdRef;
     owl:sameAs ?Lien_IdRef;
-    schema:award ?Award;
+    dbo:award ?Award;
 }
 FROM <file:fr-esr-etoile-de-l-europe.csv> 
 WHERE{
     BIND (URI(CONCAT('http://concours-etoiles-europe.org/ns#', ?prenom, '-' ,?nom)) AS ?URI)
-    BIND (URI(CONCAT('http://concours-etoiles-europe.org/ns#', ?Edition, '-', ?Mention)) AS ?Award)
+    BIND (IF(BOUND(?Mention), 
+        URI(CONCAT('http://concours-etoiles-europe.org/ns#', ?Edition, '-', ?Mention)),
+        URI(CONCAT('http://concours-etoiles-europe.org/ns#', ?Edition))) AS ?Award)
 }
 
 # Projet
@@ -133,7 +135,9 @@ CONSTRUCT {
 }
 FROM <file:fr-esr-etoile-de-l-europe.csv> 
 WHERE{       
-    BIND (URI(CONCAT('http://concours-etoiles-europe.org/ns#', ?Edition, '-', ?Mention)) AS ?URI)
+    BIND (IF(BOUND(?Mention), 
+        URI(CONCAT('http://concours-etoiles-europe.org/ns#', ?Edition, '-', ?Mention)),
+        URI(CONCAT('http://concours-etoiles-europe.org/ns#', ?Edition))) AS ?URI)
 
     BIND( STRDT(?Numéro_de_l_édition, xsd:integer) AS ?Numéro_de_l_édition_int)
     BIND( STRDT(?Edition, xsd:integer) AS ?Edition_int)

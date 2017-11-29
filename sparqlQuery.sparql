@@ -2,8 +2,8 @@ PREFIX foaf:  <http://xmlns.com/foaf/0.1/>
 PREFIX doap: <http://usefulinc.com/ns/doap#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX nous: <http://concours-etoiles-europe.org/ns#>
-PREFIX schema: <http://schema.org/>
 PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 # Retourne le nom de tous les vainqueurs du concours de l'année 2016 et leur mention si renseignée
 
@@ -11,9 +11,9 @@ SELECT ?firstName ?familyName ?mention
 WHERE{
     ?x foaf:firstName ?firstName ;
        foaf:familyName ?familyName;
-        schema:award ?award.
+        dbo:award ?award.
   
-    ?award nous:edition "2016".
+    ?award nous:edition "2016"^^xsd:integer.
     OPTIONAL{
         ?award nous:mention ?mention .
     }    
@@ -23,7 +23,7 @@ WHERE{
 
 SELECT ?year ?firstName ?familyName 
 WHERE{
-    ?person schema:award ?award;
+    ?person dbo:award ?award;
             foaf:firstName ?firstName;
             foaf:familyName ?familyName.
     ?award nous:edition ?year.    
