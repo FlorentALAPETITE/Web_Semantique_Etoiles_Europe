@@ -90,11 +90,13 @@ CONSTRUCT {
         igeo:codeINSEE ?Code_département_int;
         foaf:name ?Libellé_département;
         dbo:region ?URI_Region;
+        owl:sameAs ?AutreGroupeDepartement;
         owl:sameAs ?DBP_Department.
 
     ?URI_Region a dbo:region;
         igeo:codeINSEE ?Code_région_int ;
         foaf:name ?Libellé_région;
+        owl:sameAs ?AutreGroupeRegion;
         owl:sameAs ?DBP_Region.
 
 }
@@ -113,6 +115,10 @@ WHERE{
     BIND( STRDT(?Code_région, xsd:integer) AS ?Code_région_int)
     BIND( STRDT(STRBEFORE(?Géolocalisation, ","), xsd:float) AS ?lat)
     BIND( STRDT(SUBSTR(STRAFTER(?Géolocalisation, ","), 2), xsd:float) AS ?long)
+
+    # Liaison avec un autre groupe
+    BIND (URI(CONCAT('http://websm.org/projet/', REPLACE(?Libellé_région, "\\s+", "_"))) as ?AutreGroupeRegion)
+    BIND (URI(CONCAT('http://websm.org/projet/', REPLACE(?Libellé_département, "\\s+", "_"))) as ?AutreGroupeDepartement)
 
 }
 
