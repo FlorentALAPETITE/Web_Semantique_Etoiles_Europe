@@ -15,4 +15,4 @@ Pour lancer Jena Fuseki sur **localhost:3030**:
 ```cd jena-fuseki-3.4.0
 ./fuseki-server --update```
 
-Les données sont déjà présentes dans fuseki au lancement ;)
+Si les données de notre projet sont présentes à son lancement, il n'en est pas de même avec les données du groupe avec lequel nous nous sommes lié. Il vous faudra donc importer le fichier **graphAutreGroupe.ttl** dans fuseki, dans un autre graphe nommé par exemple **graphAutreGroupe**.
