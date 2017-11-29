@@ -6,7 +6,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX doap: <http://usefulinc.com/ns/doap#>
 PREFIX schema: <http://schema.org/>
-PREFIX owl: <http://www.w3.org/2002/07/owl>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX igeo:<http://rdf.insee.fr/def/geo#>
 PREFIX nous: <http://concours-etoiles-europe.org/ns#>
 PREFIX w3geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
