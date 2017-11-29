@@ -1,2 +1,3 @@
 opencsv/
 RDFGraph_Concours_Etoiles_Europes.ttl
+jena-fuseki-3.4.0/run/system/tdb.lock

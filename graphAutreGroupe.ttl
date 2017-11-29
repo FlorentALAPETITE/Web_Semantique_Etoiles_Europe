@@ -1,0 +1,2061 @@
+@prefix dbpedia-fr:  <http://fr.dbpedia.org/resource/> .
+@prefix projet:  <http://websm.org/projet/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix vcard:  <http://www.w3.org/2006/vcard/ns#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+projet:Île-de-France  rdf:type  projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" .
+
+projet:Pays_de_la_Loire
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:Pays_de_la_Loire> ;
+        rdf:label   "Pays_de_la_Loire" .
+
+projet:Île-de-France  rdf:type  projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" .
+
+<http://websm.org/projet/Provence-Alpes-C%C3%B4te_d'Azur>
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:Provence-Alpes-C%C3%B4te_d'Azur> ;
+        rdf:label   "Provence-Alpes-Côte_d'Azur" .
+
+projet:Île-de-France  rdf:type  projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" .
+
+<http://websm.org/projet/Provence-Alpes-C%C3%B4te_d'Azur>
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:Provence-Alpes-C%C3%B4te_d'Azur> ;
+        rdf:label   "Provence-Alpes-Côte_d'Azur" .
+
+projet:Île-de-France  rdf:type  projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" .
+
+projet:Rhône-Alpes  rdf:type  projet:Region ;
+        owl:sameAs  <dbpedia-fr:Rh%C3%B4ne-Alpes> ;
+        rdf:label   "Rhône-Alpes" .
+
+<http://websm.org/projet/%EF%BF%BD%EF%BF%BDle-de-France>
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%EF%BF%BD%EF%BF%BDle-de-France> ;
+        rdf:label   "��le-de-France" .
+
+projet:Île-de-France  rdf:type  projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" .
+
+projet:Nord-Pas-de-Calais
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:Nord-Pas-de-Calais> ;
+        rdf:label   "Nord-Pas-de-Calais" .
+
+projet:Île-de-France  rdf:type  projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" .
+
+projet:Lorraine  rdf:type  projet:Region ;
+        owl:sameAs  <dbpedia-fr:Lorraine> ;
+        rdf:label   "Lorraine" .
+
+projet:Étranger  rdf:type  projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%89tranger> ;
+        rdf:label   "Étranger" .
+
+projet:Île-de-France  rdf:type  projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" .
+
+projet:Bretagne  rdf:type  projet:Region ;
+        owl:sameAs  <dbpedia-fr:Bretagne> ;
+        rdf:label   "Bretagne" .
+
+projet:Île-de-France  rdf:type  projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" ;
+        rdf:type    projet:Region ;
+        owl:sameAs  <dbpedia-fr:%C3%8Ele-de-France> ;
+        rdf:label   "Île-de-France" .
+
+projet:Bretagne  rdf:type  projet:Region ;
+        owl:sameAs  <dbpedia-fr:Bretagne> ;
+        rdf:label   "Bretagne" .
+
+projet:Picardie  rdf:type  projet:Region ;
+        owl:sameAs  <dbpedia-fr:Picardie> ;
+        rdf:label   "Picardie" .
+
+projet:Hauts-de-Seine
+        rdf:type    projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Hauts-de-Seine> ;
+        rdf:label   "Hauts-de-Seine" .
+
+projet:Seine-Saint-Denis
+        rdf:type    projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Seine-Saint-Denis> ;
+        rdf:label   "Seine-Saint-Denis" .
+
+projet:Paris  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Paris> ;
+        rdf:label   "Paris" ;
+        rdf:type    projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Paris> ;
+        rdf:label   "Paris" .
+
+projet:Maine-et-Loire
+        rdf:type    projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Maine-et-Loire> ;
+        rdf:label   "Maine-et-Loire" .
+
+projet:Paris  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Paris> ;
+        rdf:label   "Paris" .
+
+projet:Val-de-Marne  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Val-de-Marne> ;
+        rdf:label   "Val-de-Marne" .
+
+projet:Hauts-de-Seine
+        rdf:type    projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Hauts-de-Seine> ;
+        rdf:label   "Hauts-de-Seine" .
+
+projet:Bouches-du-Rhône
+        rdf:type    projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Bouches-du-Rh%C3%B4ne> ;
+        rdf:label   "Bouches-du-Rhône" .
+
+projet:Paris  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Paris> ;
+        rdf:label   "Paris" .
+
+projet:Yvelines  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Yvelines> ;
+        rdf:label   "Yvelines" .
+
+projet:Paris  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Paris> ;
+        rdf:label   "Paris" .
+
+projet:Hauts-de-Seine
+        rdf:type    projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Hauts-de-Seine> ;
+        rdf:label   "Hauts-de-Seine" ;
+        rdf:type    projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Hauts-de-Seine> ;
+        rdf:label   "Hauts-de-Seine" .
+
+projet:Paris  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Paris> ;
+        rdf:label   "Paris" ;
+        rdf:type    projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Paris> ;
+        rdf:label   "Paris" ;
+        rdf:type    projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Paris> ;
+        rdf:label   "Paris" .
+
+projet:Essonne  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Essonne> ;
+        rdf:label   "Essonne" .
+
+projet:Hauts-de-Seine
+        rdf:type    projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Hauts-de-Seine> ;
+        rdf:label   "Hauts-de-Seine" .
+
+projet:Paris  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Paris> ;
+        rdf:label   "Paris" .
+
+projet:Bouches-du-Rhône
+        rdf:type    projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Bouches-du-Rh%C3%B4ne> ;
+        rdf:label   "Bouches-du-Rhône" .
+
+projet:Paris  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Paris> ;
+        rdf:label   "Paris" ;
+        rdf:type    projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Paris> ;
+        rdf:label   "Paris" .
+
+projet:Rhône  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Rh%C3%B4ne> ;
+        rdf:label   "Rhône" .
+
+projet:Paris  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Paris> ;
+        rdf:label   "Paris" .
+
+projet:Val-de-Marne  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Val-de-Marne> ;
+        rdf:label   "Val-de-Marne" .
+
+projet:Paris  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Paris> ;
+        rdf:label   "Paris" .
+
+projet:Hauts-de-Seine
+        rdf:type    projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Hauts-de-Seine> ;
+        rdf:label   "Hauts-de-Seine" .
+
+projet:Nord  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Nord> ;
+        rdf:label   "Nord" .
+
+projet:Paris  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Paris> ;
+        rdf:label   "Paris" .
+
+projet:Val-de-Marne  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Val-de-Marne> ;
+        rdf:label   "Val-de-Marne" .
+
+projet:Paris  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Paris> ;
+        rdf:label   "Paris" ;
+        rdf:type    projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Paris> ;
+        rdf:label   "Paris" ;
+        rdf:type    projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Paris> ;
+        rdf:label   "Paris" .
+
+projet:Essonne  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Essonne> ;
+        rdf:label   "Essonne" .
+
+projet:Moselle  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Moselle> ;
+        rdf:label   "Moselle" .
+
+projet:Étranger  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:%C3%89tranger> ;
+        rdf:label   "Étranger" .
+
+projet:Paris  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Paris> ;
+        rdf:label   "Paris" .
+
+projet:Seine-et-Marne
+        rdf:type    projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Seine-et-Marne> ;
+        rdf:label   "Seine-et-Marne" .
+
+projet:Hauts-de-Seine
+        rdf:type    projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Hauts-de-Seine> ;
+        rdf:label   "Hauts-de-Seine" .
+
+projet:Finistère  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Finist%C3%A8re> ;
+        rdf:label   "Finistère" .
+
+projet:Paris  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Paris> ;
+        rdf:label   "Paris" ;
+        rdf:type    projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Paris> ;
+        rdf:label   "Paris" ;
+        rdf:type    projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Paris> ;
+        rdf:label   "Paris" ;
+        rdf:type    projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Paris> ;
+        rdf:label   "Paris" .
+
+projet:Finistère  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Finist%C3%A8re> ;
+        rdf:label   "Finistère" .
+
+projet:Oise  rdf:type  projet:Departement ;
+        owl:sameAs  <dbpedia-fr:Oise> ;
+        rdf:label   "Oise" .
+
+<https://twitter.com/IFPENinnovation>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "IFPENinnovation" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/CeeEtudesEmploi>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "CeeEtudesEmploi" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/Bpifrance>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "Bpifrance" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/BRGM_fr>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "BRGM_fr" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/ademe>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "ademe" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/Anses_fr>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "Anses_fr" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/irstea>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "irstea" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/PRESSECEREQ>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "PRESSECEREQ" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/Inserm>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "Inserm" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/Inria>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "Inria" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/InedFr>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "InedFr" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/Andra_France>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "Andra_France" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/Institut_cancer>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "Institut_cancer" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/Cirad>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "Cirad" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/IHEST>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "IHEST" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/CEA_Recherche>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "CEA_Recherche" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/Ifremer_fr>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "Ifremer_fr" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/InrapOfficiel>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "InrapOfficiel" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/ird_fr>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "ird_fr" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/quaibranly>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "quaibranly" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/CNES_France>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "CNES_France" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/meteofrance>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "meteofrance" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/universcience>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "universcience" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/onera_fr>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "onera_fr" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/ActuBnF>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "ActuBnF" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/ignfrance>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "ignfrance" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/institut_curie>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "institut_curie" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/CampusFrance>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "CampusFrance" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/AgenceRecherche>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "AgenceRecherche" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/Genopole>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "Genopole" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/VillaMedicis>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "VillaMedicis" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/Inra_France>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "Inra_France" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/Ifsttar>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "Ifsttar" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/radioprotection>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "radioprotection" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/shom_fr>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "shom_fr" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/AcadTechnolog>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "AcadTechnolog" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/aiderpasteur>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "aiderpasteur" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://twitter.com/CNRS>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "CNRS" ;
+        foaf:accountServiceHomepage  "http://twitter.com/" .
+
+<https://www.linkedin.com/company/bpifrance>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "company/bpifrance" ;
+        foaf:accountServiceHomepage  "http://www.linkedin.com/" .
+
+<https://www.linkedin.com/company/inria>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "company/inria" ;
+        foaf:accountServiceHomepage  "http://www.linkedin.com/" .
+
+<http://fr.linkedin.com/company/ihest>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "company/ihest" ;
+        foaf:accountServiceHomepage  "http://www.linkedin.com/" .
+
+<https://www.linkedin.com/company/inrap>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "company/inrap" ;
+        foaf:accountServiceHomepage  "http://www.linkedin.com/" .
+
+<https://www.linkedin.com/company/cnes>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "company/cnes" ;
+        foaf:accountServiceHomepage  "http://www.linkedin.com/" .
+
+<https://www.linkedin.com/company/onera>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "company/onera" ;
+        foaf:accountServiceHomepage  "http://www.linkedin.com/" .
+
+<https://www.linkedin.com/company/anr>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "company/anr" ;
+        foaf:accountServiceHomepage  "http://www.linkedin.com/" .
+
+<https://www.linkedin.com/company/genopole>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "company/genopole" ;
+        foaf:accountServiceHomepage  "http://www.linkedin.com/" .
+
+<https://www.linkedin.com/pub/ifsttar-institute/50/1a7/707>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "pub/ifsttar-institute/50/1a7/707" ;
+        foaf:accountServiceHomepage  "http://www.linkedin.com/" .
+
+<https://www.linkedin.com/company/irsn>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "company/irsn" ;
+        foaf:accountServiceHomepage  "http://www.linkedin.com/" .
+
+<https://www.linkedin.com/company/acad-mie-des-technologies>
+        rdf:type                     foaf:OnlineAccount ;
+        foaf:accountName             "company/acad-mie-des-technologies" ;
+        foaf:accountServiceHomepage  "http://www.linkedin.com/" .
+
+<http://websm.org/institution/IFPEN>
+        rdf:type                       projet:Institution ;
+        projet:libelle_court           "IFPEN" ;
+        projet:libelle_long            "IFP Energies nouvelles" ;
+        projet:statut_juridique_court  "Établissement public à caractère industriel et commercial" ;
+        vcard:street-address           "1-4 AVENUE DE BOIS PREAU" ;
+        vcard:postal-code              "92852" ;
+        vcard:locality                 <dbpedia-fr:RUEIL-MALMAISON> ;
+        vcard:latitude                 "48.8766445" ;
+        vcard:longitude                "2.1738144" ;
+        vcard:url                      "http://www.ifpenergiesnouvelles.fr/" ;
+        foaf:account                   <https://twitter.com/IFPENinnovation> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/086gj4" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q84026" ;
+        projet:statut_operateur_lolf   "Opérateurs MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Recherche et enseignement supérieur" ;
+        projet:identifiant_programme_lolf_chef_de_file  "190" ;
+        projet:libelle_programme_lolf_chef_de_file  "Recherche dans les domaines de l'énergie, du développement et de l'aménagement durables" ;
+        projet:com_code                "92063" ;
+        projet:com_nom                 "Rueil-Malmaison" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D092" ;
+        projet:dep                     <projet:Hauts-de-Seine> ;
+        projet:aca_id                  "A25" ;
+        projet:aca                     <dbpedia-fr:Versailles> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        owl:sameAs                     <http://localhost:3333/IFP%20Energies%20nouvelles> .
+
+<http://websm.org/institution/CEE>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0932509X" ;
+        projet:libelle_court           "CEE" ;
+        projet:libelle_long            "Centre d'études de l'emploi" ;
+        projet:statut_juridique_court  "Établissement public à caractère administratif" ;
+        vcard:street-address           "29 PROMENADE MICHEL SIMON" ;
+        vcard:postal-code              "93160" ;
+        vcard:locality                 <dbpedia-fr:NOISY-LE-GRAND> ;
+        vcard:latitude                 "48.8421937" ;
+        vcard:longitude                "2.5785861" ;
+        vcard:url                      "http://www.cee-recherche.fr/" ;
+        foaf:account                   <https://twitter.com/CeeEtudesEmploi> ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q2945184" ;
+        projet:statut_operateur_lolf   "Opérateurs LOLF Hors MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Travail et emploi" ;
+        projet:identifiant_programme_lolf_chef_de_file  "155" ;
+        projet:libelle_programme_lolf_chef_de_file  "Conception, gestion et évaluation des politiques de l'emploi et du travail" ;
+        projet:com_code                "93051" ;
+        projet:com_nom                 "Noisy-le-Grand" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D093" ;
+        projet:dep                     <projet:Seine-Saint-Denis> ;
+        projet:aca_id                  "A24" ;
+        projet:aca                     <dbpedia-fr:Cr%C3%A9teil> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:numero_siren_siret_uai  "18003804400020" ;
+        owl:sameAs                     <http://localhost:3333/Centre%20d'%C3%A9tudes%20de%20l'emploi> .
+
+<http://websm.org/institution/BPI%20France>
+        rdf:type                       projet:Institution ;
+        projet:libelle_court           "BPI France" ;
+        projet:libelle_long            "BPI France" ;
+        projet:statut_juridique_court  "Société anonyme" ;
+        vcard:street-address           "48 RUE DE VILLIERS" ;
+        vcard:postal-code              "92300" ;
+        vcard:locality                 <dbpedia-fr:LEVALLOIS-PERRET> ;
+        vcard:latitude                 "48.8901225" ;
+        vcard:longitude                "2.2802354" ;
+        vcard:url                      "http://www.bpifrance.fr/" ;
+        foaf:account                   <https://twitter.com/Bpifrance> ;
+        foaf:account                   <https://www.linkedin.com/company/bpifrance> ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q2362964" ;
+        projet:statut_operateur_lolf   "Non_Opérateur_LOLF" ;
+        projet:com_code                "92044" ;
+        projet:com_nom                 "Levallois-Perret" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D075" ;
+        projet:dep                     <projet:Paris> ;
+        projet:aca_id                  "A01" ;
+        projet:aca                     <dbpedia-fr:Paris> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        owl:sameAs                     <http://localhost:3333/BPI%20France> .
+
+<http://websm.org/institution/BRGM>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0755363X" ;
+        projet:libelle_court           "BRGM" ;
+        projet:libelle_long            "Bureau de recherches géologiques et minières" ;
+        projet:statut_juridique_court  "Établissement public à caractère industriel et commercial" ;
+        vcard:street-address           "TOUR MIRABEAU," ;
+        projet:complement_adresse      "39-43, QUAI ANDRÉ CITROËN" ;
+        vcard:postal-code              "75739" ;
+        vcard:locality                 <dbpedia-fr:PARIS_CEDEX_15> ;
+        vcard:latitude                 "48.846321" ;
+        vcard:longitude                "2.277709" ;
+        vcard:url                      "http://www.brgm.fr/" ;
+        foaf:account                   <https://twitter.com/BRGM_fr> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/0_h2d10" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q138691" ;
+        projet:statut_operateur_lolf   "Opérateurs MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Recherche et enseignement supérieur" ;
+        projet:identifiant_programme_lolf_chef_de_file  "187" ;
+        projet:libelle_programme_lolf_chef_de_file  "Recherche dans le domaine de la gestion des milieux et des ressources" ;
+        projet:identifiants_autres_programmes_lolf  "181" ;
+        projet:com_code                "75115" ;
+        projet:com_nom                 "Paris 15e" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D075" ;
+        projet:dep                     <projet:Paris> ;
+        projet:aca_id                  "A01" ;
+        projet:aca                     <dbpedia-fr:Paris> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:numero_siren_siret_uai  "40070693300019" ;
+        owl:sameAs                     <http://localhost:3333/Bureau%20de%20recherches%20g%C3%A9ologiques%20et%20mini%C3%A8res> .
+
+<http://websm.org/institution/ADEME>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0755504A" ;
+        projet:libelle_court           "ADEME" ;
+        projet:libelle_long            "Agence de l'environnement et de la maîtrise de l'énergie" ;
+        projet:statut_juridique_court  "Établissement public à caractère industriel et commercial" ;
+        vcard:street-address           "20, AVENUE DU GRÉSILLÉ" ;
+        projet:complement_adresse      "BP 90406" ;
+        vcard:postal-code              "49004" ;
+        vcard:locality                 <dbpedia-fr:ANGERS_CEDEX_01> ;
+        vcard:latitude                 "47.4577839-0.6028762" ;
+        vcard:longitude                "-0.6028762" ;
+        vcard:url                      "http://www2.ademe.fr/" ;
+        foaf:account                   <https://twitter.com/ademe> ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q2826599" ;
+        projet:statut_operateur_lolf   "Opérateurs LOLF Hors MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Écologie, développement et aménagement durables" ;
+        projet:identifiant_programme_lolf_chef_de_file  "181" ;
+        projet:libelle_programme_lolf_chef_de_file  "Prévention des risques" ;
+        projet:identifiants_autres_programmes_lolf  "190" ;
+        projet:com_code                "49007" ;
+        projet:com_nom                 "Angers" ;
+        projet:uucr_id                 "UU49701" ;
+        projet:uucr_nom                "Angers" ;
+        projet:dep_id                  "D049" ;
+        projet:dep                     <projet:Maine-et-Loire> ;
+        projet:aca_id                  "A17" ;
+        projet:aca                     <dbpedia-fr:Nantes> ;
+        projet:reg_id                  "R52" ;
+        projet:reg                     <projet:Pays_de_la_Loire> ;
+        projet:numero_siren_siret_uai  "41883990800013" ;
+        owl:sameAs                     <http://localhost:3333/Agence%20de%20l'environnement%20et%20de%20la%20ma%C3%AEtrise%20de%20l'%C3%A9nergie> .
+
+<http://websm.org/institution/CEPH>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0755621C" ;
+        projet:libelle_court           "CEPH" ;
+        projet:libelle_long            "Centre d'étude du polymorphisme humain" ;
+        projet:statut_juridique_court  "Fondation reconnue d'utilité publique" ;
+        vcard:street-address           "27, RUE JULIETTE DODU" ;
+        vcard:postal-code              "75010" ;
+        vcard:locality                 <dbpedia-fr:PARIS> ;
+        vcard:latitude                 "48.8757246" ;
+        vcard:longitude                "2.368677" ;
+        vcard:url                      "http://www.cephb.fr/" ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/0cfzvs" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q5464989" ;
+        projet:statut_operateur_lolf   "Non_Opérateur_LOLF" ;
+        projet:com_code                "75110" ;
+        projet:com_nom                 "Paris 10e" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D075" ;
+        projet:dep                     <projet:Paris> ;
+        projet:aca_id                  "A01" ;
+        projet:aca                     <dbpedia-fr:Paris> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        owl:sameAs                     <http://localhost:3333/Centre%20d'%C3%A9tude%20du%20polymorphisme%20humain> .
+
+<http://websm.org/institution/ANS%C3%A9S>
+        rdf:type                       projet:Institution ;
+        projet:libelle_court           "ANSéS" ;
+        projet:libelle_long            "Agence nationale de sécurité sanitaire, de l'alimentation, de l'environnement et du travail" ;
+        projet:statut_juridique_court  "Établissement public à caractère administratif" ;
+        vcard:street-address           "27-31 AVENUE DU GENERAL LECLERC" ;
+        vcard:postal-code              "94701" ;
+        vcard:locality                 <dbpedia-fr:MAISONS-ALFORT> ;
+        vcard:latitude                 "48.8146905" ;
+        vcard:longitude                "2.4232006" ;
+        vcard:url                      "http://www.anses.fr/" ;
+        foaf:account                   <https://twitter.com/Anses_fr> ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q392520" ;
+        projet:statut_operateur_lolf   "Opérateurs LOLF Hors MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Agriculture, alimentation, forêt et affaires rurales" ;
+        projet:identifiant_programme_lolf_chef_de_file  "206" ;
+        projet:libelle_programme_lolf_chef_de_file  "Sécurité et qualité sanitaires de l'alimentation" ;
+        projet:identifiants_autres_programmes_lolf  "111;181;190;204;" ;
+        projet:com_code                "94046" ;
+        projet:com_nom                 "Maisons-Alfort" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D094" ;
+        projet:dep                     <projet:Val-de-Marne> ;
+        projet:aca_id                  "A24" ;
+        projet:aca                     <dbpedia-fr:Cr%C3%A9teil> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        owl:sameAs                     <http://localhost:3333/Agence%20nationale%20de%20s%C3%A9curit%C3%A9%20sanitaire,%20de%20l'alimentation,%20de%20l'environnement%20et%20du%20travail> .
+
+<http://websm.org/institution/IRSTEA>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0922644Z" ;
+        projet:libelle_court           "IRSTEA" ;
+        projet:libelle_long            "Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture" ;
+        projet:statut_juridique_court  "Établissements publics à caractère scientifique et technologique" ;
+        vcard:street-address           "1 RUE PIERRE-GILLES DE GENNES" ;
+        projet:complement_adresse      "CS 10030" ;
+        vcard:postal-code              "92761" ;
+        vcard:locality                 <dbpedia-fr:ANTHONY_CEDEX> ;
+        vcard:latitude                 "48.7480895" ;
+        vcard:longitude                "2.3145062" ;
+        vcard:url                      "http://www.irstea.fr/" ;
+        foaf:account                   <https://twitter.com/irstea> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/0285w1k" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q3152425" ;
+        projet:statut_operateur_lolf   "Opérateurs MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Recherche et enseignement supérieur" ;
+        projet:identifiant_programme_lolf_chef_de_file  "187" ;
+        projet:libelle_programme_lolf_chef_de_file  "Recherche dans le domaine de la gestion des milieux et des ressources" ;
+        projet:identifiants_autres_programmes_lolf  "142;181" ;
+        projet:com_code                "92002" ;
+        projet:com_nom                 "Antony" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D092" ;
+        projet:dep                     <projet:Hauts-de-Seine> ;
+        projet:aca_id                  "A25" ;
+        projet:aca                     <dbpedia-fr:Versailles> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:numero_siren_siret_uai  "18007001300107" ;
+        owl:sameAs                     <http://localhost:3333/Institut%20national%20de%20recherche%20en%20sciences%20et%20technologies%20pour%20l'environnement%20et%20l'agriculture> .
+
+<http://websm.org/institution/CEREQ>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0133438S" ;
+        projet:libelle_court           "CEREQ" ;
+        projet:libelle_long            "Centre d'Etudes et de Recherches sur les Qualifications" ;
+        projet:statut_juridique_court  "Établissement public à caractère administratif" ;
+        vcard:street-address           "10 PLACE DE LA JOLIETTE" ;
+        projet:complement_adresse      "BP 21321" ;
+        vcard:postal-code              "13567" ;
+        vcard:locality                 <dbpedia-fr:MARSEILLE_CEDEX_02> ;
+        vcard:latitude                 "43.3053224" ;
+        vcard:longitude                "5.3659087" ;
+        vcard:url                      "http://www.cereq.fr/" ;
+        foaf:account                   <https://twitter.com/PRESSECEREQ> ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q2945205" ;
+        projet:statut_operateur_lolf   "Opérateurs LOLF Hors MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Enseignement scolaire" ;
+        projet:identifiant_programme_lolf_chef_de_file  "214" ;
+        projet:libelle_programme_lolf_chef_de_file  "Soutien de la politique de l'éducation nationale" ;
+        projet:identifiants_autres_programmes_lolf  "155" ;
+        projet:com_code                "13202" ;
+        projet:com_nom                 "Marseille 2e" ;
+        projet:uucr_id                 "UU00759" ;
+        projet:uucr_nom                "Marseille - Aix-en-Provence" ;
+        projet:dep_id                  "D013" ;
+        projet:dep                     <projet:Bouches-du-Rh%C3%B4ne> ;
+        projet:aca_id                  "A02" ;
+        projet:aca                     <dbpedia-fr:Aix-Marseille> ;
+        projet:reg_id                  "R93" ;
+        projet:reg                     <projet:Provence-Alpes-C%C3%B4te_d'Azur> ;
+        owl:sameAs                     <http://localhost:3333/Centre%20d'Etudes%20et%20de%20Recherches%20sur%20les%20Qualifications> .
+
+<http://websm.org/institution/INSERM>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0755364Y" ;
+        projet:libelle_court           "INSERM" ;
+        projet:libelle_long            "Institut national de la santé et de la recherche médicale" ;
+        projet:statut_juridique_court  "Établissements publics à caractère scientifique et technologique" ;
+        vcard:street-address           "101 RUE DE TOLBIAC" ;
+        vcard:postal-code              "75013" ;
+        vcard:locality                 <dbpedia-fr:PARIS> ;
+        vcard:latitude                 "48.8267106" ;
+        vcard:longitude                "2.3653748" ;
+        vcard:url                      "http://www.inserm.fr/" ;
+        foaf:account                   <https://twitter.com/Inserm> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/0gv88y" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q1474517" ;
+        projet:statut_operateur_lolf   "Opérateurs MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Recherche et enseignement supérieur" ;
+        projet:identifiant_programme_lolf_chef_de_file  "172" ;
+        projet:libelle_programme_lolf_chef_de_file  "Recherches scientifiques et technologiques pluridisciplinaires" ;
+        projet:com_code                "75113" ;
+        projet:com_nom                 "Paris 13e" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D075" ;
+        projet:dep                     <projet:Paris> ;
+        projet:aca_id                  "A01" ;
+        projet:aca                     <dbpedia-fr:Paris> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:numero_siren_siret_uai  "18003604800015" ;
+        owl:sameAs                     <http://localhost:3333/Institut%20national%20de%20la%20sant%C3%A9%20et%20de%20la%20recherche%20m%C3%A9dicale> .
+
+<http://websm.org/institution/INRIA>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0780491K" ;
+        projet:libelle_court           "INRIA" ;
+        projet:libelle_long            "Institut national de recherche en informatique et en automatique" ;
+        projet:statut_juridique_court  "Établissements publics à caractère scientifique et technologique" ;
+        vcard:street-address           "DOMAINE DE VOLUCEAU" ;
+        projet:complement_adresse      "ROCQUENCOURT - B.P. 105" ;
+        vcard:postal-code              "78153" ;
+        vcard:locality                 <dbpedia-fr:LE_CHESNAY> ;
+        vcard:latitude                 "48.837135" ;
+        vcard:longitude                "2.103516" ;
+        vcard:url                      "http://www.inria.fr/" ;
+        foaf:account                   <https://twitter.com/Inria> ;
+        foaf:account                   <https://www.linkedin.com/company/inria> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/01v56y" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q1146208" ;
+        projet:statut_operateur_lolf   "Opérateurs MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Recherche et enseignement supérieur" ;
+        projet:identifiant_programme_lolf_chef_de_file  "172" ;
+        projet:libelle_programme_lolf_chef_de_file  "Recherches scientifiques et technologiques pluridisciplinaires" ;
+        projet:com_code                "78158" ;
+        projet:com_nom                 "Le Chesnay" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D078" ;
+        projet:dep                     <projet:Yvelines> ;
+        projet:aca_id                  "A25" ;
+        projet:aca                     <dbpedia-fr:Versailles> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:numero_siren_siret_uai  "18008904700013" ;
+        owl:sameAs                     <http://localhost:3333/Institut%20national%20de%20recherche%20en%20informatique%20et%20en%20automatique> .
+
+<http://websm.org/institution/INED>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0755360U" ;
+        projet:libelle_court           "INED" ;
+        projet:libelle_long            "Institut national des études démographiques" ;
+        projet:statut_juridique_court  "Établissements publics à caractère scientifique et technologique" ;
+        vcard:street-address           "133, BOULEVARD DAVOUT" ;
+        vcard:postal-code              "75980" ;
+        vcard:locality                 <dbpedia-fr:PARIS_CEDEX_20> ;
+        vcard:latitude                 "48.8577799" ;
+        vcard:longitude                "2.4097005" ;
+        vcard:url                      "http://www.ined.fr/" ;
+        foaf:account                   <https://twitter.com/InedFr> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/0cvf00" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q3152388" ;
+        projet:statut_operateur_lolf   "Opérateurs MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Recherche et enseignement supérieur" ;
+        projet:identifiant_programme_lolf_chef_de_file  "172" ;
+        projet:libelle_programme_lolf_chef_de_file  "Recherches scientifiques et technologiques pluridisciplinaires" ;
+        projet:com_code                "75120" ;
+        projet:com_nom                 "Paris 20e" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D075" ;
+        projet:dep                     <projet:Paris> ;
+        projet:aca_id                  "A01" ;
+        projet:aca                     <dbpedia-fr:Paris> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:numero_siren_siret_uai  "18003702000021" ;
+        owl:sameAs                     <http://localhost:3333/Institut%20national%20des%20%C3%A9tudes%20d%C3%A9mographiques> .
+
+<http://websm.org/institution/ANDRA>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0922684T" ;
+        projet:libelle_court           "ANDRA" ;
+        projet:libelle_long            "Agence nationale de gestion des déchets radioactifs" ;
+        projet:statut_juridique_court  "Établissement public à caractère industriel et commercial" ;
+        vcard:street-address           "1/7, RUE JEAN MONNET, PARC DE LA CROIX-BLANCHE" ;
+        vcard:postal-code              "92298" ;
+        vcard:locality                 <dbpedia-fr:CH%C3%82TENAY-MALABRY_CEDEX> ;
+        vcard:latitude                 "48.770655" ;
+        vcard:longitude                "2.284561" ;
+        vcard:url                      "https://www.andra.fr/" ;
+        foaf:account                   <https://twitter.com/Andra_France> ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q295662" ;
+        projet:statut_operateur_lolf   "Opérateurs LOLF Hors MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Écologie, développement et aménagement durables" ;
+        projet:identifiant_programme_lolf_chef_de_file  "174" ;
+        projet:libelle_programme_lolf_chef_de_file  "Énergie, climat et après-mines" ;
+        projet:identifiants_autres_programmes_lolf  "181" ;
+        projet:com_code                "92019" ;
+        projet:com_nom                 "Châtenay-Malabry" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D092" ;
+        projet:dep                     <projet:Hauts-de-Seine> ;
+        projet:aca_id                  "A25" ;
+        projet:aca                     <dbpedia-fr:Versailles> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        owl:sameAs                     <http://localhost:3333/Agence%20nationale%20de%20gestion%20des%20d%C3%A9chets%20radioactifs> .
+
+<http://websm.org/institution/INCa>
+        rdf:type                       projet:Institution ;
+        projet:libelle_court           "INCa" ;
+        projet:libelle_long            "Institut national du Cancer" ;
+        projet:statut_juridique_court  "Groupement d'intérêt public" ;
+        vcard:street-address           "52 AVENUE ANDRÉ MORIZET" ;
+        vcard:postal-code              "92100" ;
+        vcard:locality                 <dbpedia-fr:BOULOGNE-BILLANCOURT> ;
+        vcard:latitude                 "48.8369177" ;
+        vcard:longitude                "2.2369694" ;
+        vcard:url                      "http://www.e-cancer.fr/" ;
+        foaf:account                   <https://twitter.com/Institut_cancer> ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q3152443" ;
+        projet:statut_operateur_lolf   "Opérateurs LOLF Hors MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Santé" ;
+        projet:identifiant_programme_lolf_chef_de_file  "204" ;
+        projet:libelle_programme_lolf_chef_de_file  "Prévention, sécurité sanitaire et offre de soins" ;
+        projet:com_code                "92012" ;
+        projet:com_nom                 "Boulogne-Billancourt" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D092" ;
+        projet:dep                     <projet:Hauts-de-Seine> ;
+        projet:aca_id                  "A25" ;
+        projet:aca                     <dbpedia-fr:Versailles> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        owl:sameAs                     <http://localhost:3333/Institut%20national%20du%20Cancer> .
+
+<http://websm.org/institution/CIRAD>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0755516N" ;
+        projet:libelle_court           "CIRAD" ;
+        projet:libelle_long            "Centre de coopération internationale en recherche agronomique pour le développement" ;
+        projet:statut_juridique_court  "Établissement public à caractère industriel et commercial" ;
+        vcard:street-address           "42, RUE SCHEFFER" ;
+        vcard:postal-code              "75116" ;
+        vcard:locality                 <dbpedia-fr:PARIS> ;
+        vcard:latitude                 "48.8627234" ;
+        vcard:longitude                "2.2819178" ;
+        vcard:url                      "http://www.cirad.fr/" ;
+        foaf:account                   <https://twitter.com/Cirad> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/0v3h9lw" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q2945274" ;
+        projet:statut_operateur_lolf   "Opérateurs MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Recherche et enseignement supérieur" ;
+        projet:identifiant_programme_lolf_chef_de_file  "187" ;
+        projet:libelle_programme_lolf_chef_de_file  "Recherche dans le domaine de la gestion des milieux et des ressources" ;
+        projet:com_code                "75116" ;
+        projet:com_nom                 "Paris 16e" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D075" ;
+        projet:dep                     <projet:Paris> ;
+        projet:aca_id                  "A01" ;
+        projet:aca                     <dbpedia-fr:Paris> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:numero_siren_siret_uai  "33159627000040" ;
+        owl:sameAs                     <http://localhost:3333/Centre%20de%20coop%C3%A9ration%20internationale%20en%20recherche%20agronomique%20pour%20le%20d%C3%A9veloppement> .
+
+<http://websm.org/institution/OST>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0755619A" ;
+        projet:libelle_court           "OST" ;
+        projet:libelle_long            "Observatoire des sciences et techniques" ;
+        projet:statut_juridique_court  "Groupement d'intérêt public" ;
+        vcard:street-address           "21 BOULEVARD PASTEUR" ;
+        vcard:postal-code              "75015" ;
+        vcard:locality                 <dbpedia-fr:PARIS> ;
+        vcard:latitude                 "48.8439866" ;
+        vcard:longitude                "2.3124722" ;
+        vcard:url                      "http://www.obs-ost.fr/fr" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q3348415" ;
+        projet:statut_operateur_lolf   "Opérateurs MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Recherche et enseignement supérieur" ;
+        projet:identifiant_programme_lolf_chef_de_file  "172" ;
+        projet:libelle_programme_lolf_chef_de_file  "Recherches scientifiques et technologiques pluridisciplinaires" ;
+        projet:com_code                "75115" ;
+        projet:com_nom                 "Paris 15e" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D075" ;
+        projet:dep                     <projet:Paris> ;
+        projet:aca_id                  "A01" ;
+        projet:aca                     <dbpedia-fr:Paris> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        owl:sameAs                     <http://localhost:3333/Observatoire%20des%20sciences%20et%20techniques> .
+
+<http://websm.org/institution/IHEST>
+        rdf:type                       projet:Institution ;
+        projet:libelle_court           "IHEST" ;
+        projet:libelle_long            "Institut des hautes études pour la science et la technologie" ;
+        projet:statut_juridique_court  "Établissement public à caractère administratif" ;
+        vcard:street-address           "1 RUE DESCARTES" ;
+        vcard:postal-code              "75231" ;
+        vcard:locality                 <dbpedia-fr:PARIS_CEDEX_05> ;
+        vcard:latitude                 "48.8474411" ;
+        vcard:longitude                "2.3487488" ;
+        vcard:url                      "http://www.ihest.fr/" ;
+        foaf:account                   <https://twitter.com/IHEST> ;
+        foaf:account                   <http://fr.linkedin.com/company/ihest> ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q3152165" ;
+        projet:statut_operateur_lolf   "Opérateurs MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Recherche et enseignement supérieur" ;
+        projet:identifiant_programme_lolf_chef_de_file  "172" ;
+        projet:libelle_programme_lolf_chef_de_file  "Recherches scientifiques et technologiques pluridisciplinaires" ;
+        projet:com_code                "75105" ;
+        projet:com_nom                 "Paris 5e" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D075" ;
+        projet:dep                     <projet:Paris> ;
+        projet:aca_id                  "A01" ;
+        projet:aca                     <dbpedia-fr:Paris> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        owl:sameAs                     <http://localhost:3333/Institut%20des%20hautes%20%C3%A9tudes%20pour%20la%20science%20et%20la%20technologie> .
+
+<http://websm.org/institution/CEA>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0912281K" ;
+        projet:libelle_court           "CEA" ;
+        projet:libelle_long            "Commissariat à l'énergie atomique et aux énergies alternatives" ;
+        projet:statut_juridique_court  "Établissement public à caractère industriel et commercial" ;
+        vcard:street-address           "CEA SACLAY" ;
+        vcard:postal-code              "91191" ;
+        vcard:locality                 <dbpedia-fr:GIF-SUR-YVETTE_CEDEX> ;
+        vcard:latitude                 "48.727761" ;
+        vcard:longitude                "2.15633" ;
+        vcard:url                      "http://www.cea.fr/" ;
+        foaf:account                   <https://twitter.com/CEA_Recherche> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/01vqst" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q868550" ;
+        projet:statut_operateur_lolf   "Opérateurs MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Recherche et enseignement supérieur" ;
+        projet:identifiant_programme_lolf_chef_de_file  "172" ;
+        projet:libelle_programme_lolf_chef_de_file  "Recherches scientifiques et technologiques pluridisciplinaires" ;
+        projet:identifiants_autres_programmes_lolf  "190;191;212" ;
+        projet:com_code                "91272" ;
+        projet:com_nom                 "Gif-sur-Yvette" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D091" ;
+        projet:dep                     <projet:Essonne> ;
+        projet:aca_id                  "A25" ;
+        projet:aca                     <dbpedia-fr:Versailles> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:numero_siren_siret_uai  "77568501900587" ;
+        owl:sameAs                     <http://localhost:3333/Commissariat%20%C3%A0%20l'%C3%A9nergie%20atomique%20et%20aux%20%C3%A9nergies%20alternatives> .
+
+<http://websm.org/institution/IFREMER>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0922262J" ;
+        projet:libelle_court           "IFREMER" ;
+        projet:libelle_long            "Institut français de recherche pour l'exploitation de la mer" ;
+        projet:statut_juridique_court  "Établissement public à caractère industriel et commercial" ;
+        vcard:street-address           "155 RUE JEAN-JACQUES ROUSSEAU" ;
+        vcard:postal-code              "92138" ;
+        vcard:locality                 <dbpedia-fr:ISSY-LES-MOULINEAUX> ;
+        vcard:latitude                 "48.8227131" ;
+        vcard:longitude                "2.2599014" ;
+        vcard:url                      "http://wwz.ifremer.fr/" ;
+        foaf:account                   <https://twitter.com/Ifremer_fr> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/0836yw" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q1657069" ;
+        projet:statut_operateur_lolf   "Opérateurs MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Recherche et enseignement supérieur" ;
+        projet:identifiant_programme_lolf_chef_de_file  "187" ;
+        projet:libelle_programme_lolf_chef_de_file  "Recherche dans le domaine de la gestion des milieux et des ressources" ;
+        projet:identifiants_autres_programmes_lolf  "113" ;
+        projet:com_code                "92040" ;
+        projet:com_nom                 "Issy-les-Moulineaux" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D092" ;
+        projet:dep                     <projet:Hauts-de-Seine> ;
+        projet:aca_id                  "A25" ;
+        projet:aca                     <dbpedia-fr:Versailles> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:numero_siren_siret_uai  "33071536800297" ;
+        owl:sameAs                     <http://localhost:3333/Institut%20fran%C3%A7ais%20de%20recherche%20pour%20l'exploitation%20de%20la%20mer> .
+
+<http://websm.org/institution/INRAP>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0755502Y" ;
+        projet:libelle_court           "INRAP" ;
+        projet:libelle_long            "Institut national de recherches archéologiques préventives" ;
+        projet:statut_juridique_court  "Établissement public à caractère administratif" ;
+        vcard:street-address           "7 RUE DE MADRID" ;
+        vcard:postal-code              "75008" ;
+        vcard:locality                 <dbpedia-fr:PARIS> ;
+        vcard:latitude                 "48.8781551" ;
+        vcard:longitude                "2.3212973" ;
+        vcard:url                      "http://www.inrap.fr/" ;
+        foaf:account                   <https://twitter.com/InrapOfficiel> ;
+        foaf:account                   <https://www.linkedin.com/company/inrap> ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q377191" ;
+        projet:statut_operateur_lolf   "Opérateurs LOLF Hors MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Culture" ;
+        projet:identifiant_programme_lolf_chef_de_file  "175" ;
+        projet:libelle_programme_lolf_chef_de_file  "Patrimoines" ;
+        projet:com_code                "75108" ;
+        projet:com_nom                 "Paris 8e" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D075" ;
+        projet:dep                     <projet:Paris> ;
+        projet:aca_id                  "A01" ;
+        projet:aca                     <dbpedia-fr:Paris> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:numero_siren_siret_uai  "18009226400019" ;
+        owl:sameAs                     <http://localhost:3333/Institut%20national%20de%20recherches%20arch%C3%A9ologiques%20pr%C3%A9ventives> .
+
+<http://websm.org/institution/IRD>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0133973Y" ;
+        projet:libelle_court           "IRD" ;
+        projet:libelle_long            "institut de recherche pour le développement" ;
+        projet:statut_juridique_court  "Établissements publics à caractère scientifique et technologique" ;
+        vcard:street-address           "44, BOULEVARD DE DUNKERQUE" ;
+        projet:complement_adresse      "CS 90009" ;
+        vcard:postal-code              "13572" ;
+        vcard:locality                 <dbpedia-fr:MARSEILLE_CEDEX_02> ;
+        vcard:latitude                 "43.3096127" ;
+        vcard:longitude                "5.368809" ;
+        vcard:url                      "http://www.ird.fr/" ;
+        foaf:account                   <https://twitter.com/ird_fr> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/02vw8c1" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q2910510" ;
+        projet:statut_operateur_lolf   "Opérateurs MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Recherche et enseignement supérieur" ;
+        projet:identifiant_programme_lolf_chef_de_file  "187" ;
+        projet:libelle_programme_lolf_chef_de_file  "Recherche dans le domaine de la gestion des milieux et des ressources" ;
+        projet:com_code                "13202" ;
+        projet:com_nom                 "Marseille 2e" ;
+        projet:uucr_id                 "UU00759" ;
+        projet:uucr_nom                "Marseille - Aix-en-Provence" ;
+        projet:dep_id                  "D013" ;
+        projet:dep                     <projet:Bouches-du-Rh%C3%B4ne> ;
+        projet:aca_id                  "A02" ;
+        projet:aca                     <dbpedia-fr:Aix-Marseille> ;
+        projet:reg_id                  "R93" ;
+        projet:reg                     <projet:Provence-Alpes-C%C3%B4te_d'Azur> ;
+        projet:numero_siren_siret_uai  "18000602500159" ;
+        owl:sameAs                     <http://localhost:3333/institut%20de%20recherche%20pour%20le%20d%C3%A9veloppement> .
+
+<http://websm.org/institution/LNE>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0755503Z" ;
+        projet:libelle_court           "LNE" ;
+        projet:libelle_long            "Laboratoire national de métrologie et d'essais" ;
+        projet:statut_juridique_court  "Établissement public à caractère industriel et commercial" ;
+        vcard:street-address           "1 RUE GASTON BOISSIER" ;
+        vcard:postal-code              "75724" ;
+        vcard:locality                 <dbpedia-fr:PARIS_CEDEX_15> ;
+        vcard:latitude                 "48.8290564" ;
+        vcard:longitude                "2.2953888" ;
+        vcard:url                      "http://www.lne.fr/" ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/0kfwvgm" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q3214502" ;
+        projet:statut_operateur_lolf   "Opérateurs LOLF Hors MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Économie" ;
+        projet:identifiant_programme_lolf_chef_de_file  "134" ;
+        projet:libelle_programme_lolf_chef_de_file  "Développement des entreprises et du tourisme" ;
+        projet:com_code                "75115" ;
+        projet:com_nom                 "Paris 15e" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D075" ;
+        projet:dep                     <projet:Paris> ;
+        projet:aca_id                  "A01" ;
+        projet:aca                     <dbpedia-fr:Paris> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:numero_siren_siret_uai  "31332024400012" ;
+        owl:sameAs                     <http://localhost:3333/Laboratoire%20national%20de%20m%C3%A9trologie%20et%20d'essais> .
+
+<http://websm.org/institution/EPMQB>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0755449R" ;
+        projet:libelle_court           "EPMQB" ;
+        projet:libelle_long            "Etablissement public du musée du quai Branly" ;
+        projet:statut_juridique_court  "Établissement public à caractère administratif" ;
+        vcard:street-address           "37 QUAI BRANLY" ;
+        vcard:postal-code              "75007" ;
+        vcard:locality                 <dbpedia-fr:PARIS> ;
+        vcard:latitude                 "48.861899" ;
+        vcard:longitude                "2.297441" ;
+        vcard:url                      "http://www.quaibranly.fr/" ;
+        foaf:account                   <https://twitter.com/quaibranly> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/0dmnx6" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q167863" ;
+        projet:statut_operateur_lolf   "Opérateurs LOLF Hors MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Culture" ;
+        projet:identifiant_programme_lolf_chef_de_file  "175" ;
+        projet:libelle_programme_lolf_chef_de_file  "Patrimoines" ;
+        projet:identifiants_autres_programmes_lolf  "150" ;
+        projet:com_code                "75107" ;
+        projet:com_nom                 "Paris 7e" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D075" ;
+        projet:dep                     <projet:Paris> ;
+        projet:aca_id                  "A01" ;
+        projet:aca                     <dbpedia-fr:Paris> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:numero_siren_siret_uai  "18009214000011" ;
+        owl:sameAs                     <http://localhost:3333/Etablissement%20public%20du%20mus%C3%A9e%20du%20quai%20Branly> .
+
+<http://websm.org/institution/IF%C3%A9>
+        rdf:type                       projet:Institution ;
+        projet:libelle_court           "IFé" ;
+        projet:libelle_long            "Institut français de l'éducation" ;
+        projet:statut_juridique_court  "Composante d'établissement d'enseignement supérieur" ;
+        vcard:street-address           "19 ALLÉE DE FONTENAY" ;
+        vcard:postal-code              "69007" ;
+        vcard:locality                 <dbpedia-fr:LYON> ;
+        vcard:latitude                 "45.7320527" ;
+        vcard:longitude                "4.8319557" ;
+        vcard:url                      "http://ife.ens-lyon.fr/ife" ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/0cc8j3h" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q3152279" ;
+        projet:statut_operateur_lolf   "Non_Opérateur_LOLF" ;
+        projet:com_code                "69387" ;
+        projet:com_nom                 "Lyon 7e" ;
+        projet:uucr_id                 "UU00758" ;
+        projet:uucr_nom                "Lyon" ;
+        projet:dep_id                  "D069" ;
+        projet:dep                     <projet:Rh%C3%B4ne> ;
+        projet:aca_id                  "A10" ;
+        projet:aca                     <dbpedia-fr:Lyon> ;
+        projet:reg_id                  "R82" ;
+        projet:reg                     <projet:Rh%C3%B4ne-Alpes> ;
+        owl:sameAs                     <http://localhost:3333/Institut%20fran%C3%A7ais%20de%20l'%C3%A9ducation> .
+
+<http://websm.org/institution/CNES>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0752743Z" ;
+        projet:libelle_court           "CNES" ;
+        projet:libelle_long            "Centre national d'études spatiales" ;
+        projet:statut_juridique_court  "Établissement public à caractère industriel et commercial" ;
+        vcard:street-address           "2 PLACE MAURICE QUENTIN" ;
+        vcard:postal-code              "75039" ;
+        vcard:locality                 <dbpedia-fr:PARIS_CEDEX_01> ;
+        vcard:latitude                 "48.8613539" ;
+        vcard:longitude                "2.3453059" ;
+        vcard:url                      "http://www.cnes.fr/" ;
+        foaf:account                   <https://twitter.com/CNES_France> ;
+        foaf:account                   <https://www.linkedin.com/company/cnes> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/024fy1" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q48756" ;
+        projet:statut_operateur_lolf   "Opérateurs MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Recherche et enseignement supérieur" ;
+        projet:identifiant_programme_lolf_chef_de_file  "193" ;
+        projet:libelle_programme_lolf_chef_de_file  "Recherche spatiale" ;
+        projet:identifiants_autres_programmes_lolf  "191" ;
+        projet:com_code                "75101" ;
+        projet:com_nom                 "Paris 1er" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D075" ;
+        projet:dep                     <projet:Paris> ;
+        projet:aca_id                  "A01" ;
+        projet:aca                     <dbpedia-fr:Paris> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%EF%BF%BD%EF%BF%BDle-de-France> ;
+        projet:numero_siren_siret_uai  "77566591200082" ;
+        owl:sameAs                     <http://localhost:3333/Centre%20national%20d'%C3%A9tudes%20spatiales> .
+
+<http://websm.org/institution/M%C3%A9t%C3%A9o-France>
+        rdf:type                       projet:Institution ;
+        projet:libelle_court           "Météo-France" ;
+        projet:libelle_long            "Météo-France" ;
+        projet:statut_juridique_court  "Établissement public à caractère administratif" ;
+        vcard:street-address           "73 AVENUE DE PARIS" ;
+        vcard:postal-code              "94160" ;
+        vcard:locality                 <dbpedia-fr:SAINT-MANDE> ;
+        vcard:latitude                 "48.8455896" ;
+        vcard:longitude                "2.4252281" ;
+        vcard:url                      "http://www.meteofrance.com/" ;
+        foaf:account                   <https://twitter.com/meteofrance> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/0ckgrh" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q1810406" ;
+        projet:statut_operateur_lolf   "Opérateurs LOLF Hors MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Écologie, développement et aménagement durables" ;
+        projet:identifiant_programme_lolf_chef_de_file  "170" ;
+        projet:libelle_programme_lolf_chef_de_file  "Météorologie" ;
+        projet:identifiants_autres_programmes_lolf  "181" ;
+        projet:com_code                "94067" ;
+        projet:com_nom                 "Saint-Mandé" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D094" ;
+        projet:dep                     <projet:Val-de-Marne> ;
+        projet:aca_id                  "A24" ;
+        projet:aca                     <dbpedia-fr:Cr%C3%A9teil> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        owl:sameAs                     <http://localhost:3333/M%C3%A9t%C3%A9o-France> .
+
+<http://websm.org/institution/Universcience>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0755604J" ;
+        projet:libelle_court           "Universcience" ;
+        projet:libelle_long            "Universcience" ;
+        projet:statut_juridique_court  "Établissement public à caractère industriel et commercial" ;
+        vcard:street-address           "PALAIS DE LA DÉCOUVERTE" ;
+        projet:complement_adresse      "AVENUE FRANKLIN DELANO ROOSEVELT" ;
+        vcard:postal-code              "75008" ;
+        vcard:locality                 <dbpedia-fr:PARIS> ;
+        vcard:latitude                 "48.866208" ;
+        vcard:longitude                "2.3108849" ;
+        vcard:url                      "http://www.universcience.fr/" ;
+        foaf:account                   <https://twitter.com/universcience> ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q3551303" ;
+        projet:statut_operateur_lolf   "Opérateurs MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Recherche et enseignement supérieur" ;
+        projet:identifiant_programme_lolf_chef_de_file  "186" ;
+        projet:libelle_programme_lolf_chef_de_file  "Recherche culturelle et culture scientifique" ;
+        projet:identifiants_autres_programmes_lolf  "." ;
+        projet:com_code                "75108" ;
+        projet:com_nom                 "Paris 8e" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D075" ;
+        projet:dep                     <projet:Paris> ;
+        projet:aca_id                  "A01" ;
+        projet:aca                     <dbpedia-fr:Paris> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:numero_siren_siret_uai  "51958785100014" ;
+        owl:sameAs                     <http://localhost:3333/Universcience> .
+
+<http://websm.org/institution/ONERA>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0922641W" ;
+        projet:libelle_court           "ONERA" ;
+        projet:libelle_long            "Office national d'études et de recherches aéronautiques" ;
+        projet:statut_juridique_court  "Établissement public à caractère industriel et commercial" ;
+        vcard:street-address           "29 AVENUE DE LA DIVISION LECLERC" ;
+        vcard:postal-code              "92322" ;
+        vcard:locality                 <dbpedia-fr:CHATILLON_CEDEX> ;
+        vcard:latitude                 "48.7974787" ;
+        vcard:longitude                "2.2828106" ;
+        vcard:url                      "http://www.onera.fr/" ;
+        foaf:account                   <https://twitter.com/onera_fr> ;
+        foaf:account                   <https://www.linkedin.com/company/onera> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/025v5g" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q2007769" ;
+        projet:statut_operateur_lolf   "Opérateurs LOLF Hors MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Défense" ;
+        projet:identifiant_programme_lolf_chef_de_file  "144" ;
+        projet:libelle_programme_lolf_chef_de_file  "Environnement et prospective de la politique de défense" ;
+        projet:com_code                "92020" ;
+        projet:com_nom                 "Châtillon" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D092" ;
+        projet:dep                     <projet:Hauts-de-Seine> ;
+        projet:aca_id                  "A25" ;
+        projet:aca                     <dbpedia-fr:Versailles> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:numero_siren_siret_uai  "77572287900100" ;
+        owl:sameAs                     <http://localhost:3333/Office%20national%20d'%C3%A9tudes%20et%20de%20recherches%20a%C3%A9ronautiques> .
+
+<http://websm.org/institution/Pasteur%20Lille>
+        rdf:type                       projet:Institution ;
+        projet:libelle_court           "Pasteur Lille" ;
+        projet:libelle_long            "Institut Pasteur de Lille" ;
+        projet:statut_juridique_court  "Fondation reconnue d'utilité publique" ;
+        vcard:street-address           "1 RUE DU PROFESSEUR CALMETTE" ;
+        projet:complement_adresse      "BP 245" ;
+        vcard:postal-code              "59019" ;
+        vcard:locality                 <dbpedia-fr:LILLE_CEDEX> ;
+        vcard:latitude                 "50.6280433" ;
+        vcard:longitude                "3.0740799" ;
+        vcard:url                      "http://www.pasteur-lille.fr/" ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/04y8mh7" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q3151788" ;
+        projet:statut_operateur_lolf   "Non_Opérateur_LOLF" ;
+        projet:com_code                "59350" ;
+        projet:com_nom                 "Lille" ;
+        projet:uucr_id                 "UU59702" ;
+        projet:uucr_nom                "Lille" ;
+        projet:dep_id                  "D059" ;
+        projet:dep                     <projet:Nord> ;
+        projet:aca_id                  "A09" ;
+        projet:aca                     <dbpedia-fr:Lille> ;
+        projet:reg_id                  "R31" ;
+        projet:reg                     <projet:Nord-Pas-de-Calais> ;
+        owl:sameAs                     <http://localhost:3333/Institut%20Pasteur%20de%20Lille> .
+
+<http://websm.org/institution/BnF>
+        rdf:type                       projet:Institution ;
+        projet:libelle_court           "BnF" ;
+        projet:libelle_long            "Bibliothèque nationale de France" ;
+        projet:statut_juridique_court  "Établissement public à caractère administratif" ;
+        vcard:street-address           "QUAI FRANCOIS MAURIAC" ;
+        vcard:postal-code              "75013" ;
+        vcard:locality                 <dbpedia-fr:PARIS> ;
+        vcard:latitude                 "48.833595" ;
+        vcard:longitude                "2.375766" ;
+        vcard:url                      "http://www.bnf.fr/" ;
+        foaf:account                   <https://twitter.com/ActuBnF> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/01cb6r" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q193563" ;
+        projet:statut_operateur_lolf   "Opérateurs LOLF Hors MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Médias, livre et industries culturelles" ;
+        projet:identifiant_programme_lolf_chef_de_file  "334" ;
+        projet:libelle_programme_lolf_chef_de_file  "Livre et industries culturelles" ;
+        projet:com_code                "75113" ;
+        projet:com_nom                 "Paris 13e" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D075" ;
+        projet:dep                     <projet:Paris> ;
+        projet:aca_id                  "A01" ;
+        projet:aca                     <dbpedia-fr:Paris> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        owl:sameAs                     <http://localhost:3333/Biblioth%C3%A8que%20nationale%20de%20France> .
+
+<http://websm.org/institution/IGN>
+        rdf:type                       projet:Institution ;
+        projet:libelle_court           "IGN" ;
+        projet:libelle_long            "Institut national de l'information géographique et forestière" ;
+        projet:statut_juridique_court  "Établissement public à caractère administratif" ;
+        vcard:street-address           "73 AVENUE DE PARIS" ;
+        vcard:postal-code              "94160" ;
+        vcard:locality                 <dbpedia-fr:SAINT-MANDE> ;
+        vcard:latitude                 "48.8455896" ;
+        vcard:longitude                "2.4252281" ;
+        vcard:url                      "http://www.ign.fr/" ;
+        foaf:account                   <https://twitter.com/ignfrance> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/0bqm6r" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q1665102" ;
+        projet:statut_operateur_lolf   "Opérateurs LOLF Hors MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Écologie, développement et aménagement durables" ;
+        projet:identifiant_programme_lolf_chef_de_file  "159" ;
+        projet:libelle_programme_lolf_chef_de_file  "Information géographique et cartographique" ;
+        projet:com_code                "94067" ;
+        projet:com_nom                 "Saint-Mandé" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D094" ;
+        projet:dep                     <projet:Val-de-Marne> ;
+        projet:aca_id                  "A24" ;
+        projet:aca                     <dbpedia-fr:Cr%C3%A9teil> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        owl:sameAs                     <http://localhost:3333/Institut%20national%20de%20l'information%20g%C3%A9ographique%20et%20foresti%C3%A8re> .
+
+<http://websm.org/institution/Curie>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0753172R" ;
+        projet:libelle_court           "Curie" ;
+        projet:libelle_long            "Institut Curie" ;
+        projet:statut_juridique_court  "Fondation reconnue d'utilité publique" ;
+        vcard:street-address           "26 RUE D'ULM" ;
+        vcard:postal-code              "75005" ;
+        vcard:locality                 <dbpedia-fr:PARIS> ;
+        vcard:latitude                 "48.8433839" ;
+        vcard:longitude                "2.344651" ;
+        vcard:url                      "http://curie.fr/" ;
+        foaf:account                   <https://twitter.com/institut_curie> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/01vxvg" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q2451973" ;
+        projet:statut_operateur_lolf   "Non_Opérateur_LOLF" ;
+        projet:com_code                "75105" ;
+        projet:com_nom                 "Paris 5e" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D075" ;
+        projet:dep                     <projet:Paris> ;
+        projet:aca_id                  "A01" ;
+        projet:aca                     <dbpedia-fr:Paris> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        owl:sameAs                     <http://localhost:3333/Institut%20Curie> .
+
+<http://websm.org/institution/CAMPUS%20FRANCE>
+        rdf:type                       projet:Institution ;
+        projet:libelle_court           "CAMPUS FRANCE" ;
+        projet:libelle_long            "Agence de promotion des formations et des échanges éducatifs et scientifiques" ;
+        projet:statut_juridique_court  "Établissement public à caractère industriel et commercial" ;
+        vcard:street-address           "28, RUE DE LA GRANGE AUX BELLES" ;
+        vcard:postal-code              "75010" ;
+        vcard:locality                 <dbpedia-fr:PARIS> ;
+        vcard:latitude                 "48.8766298" ;
+        vcard:longitude                "2.3693066" ;
+        vcard:url                      "http://www.campusfrance.org/fr/" ;
+        foaf:account                   <https://twitter.com/CampusFrance> ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q2935609" ;
+        projet:statut_operateur_lolf   "Opérateurs LOLF Hors MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Action extérieure de l'État" ;
+        projet:identifiant_programme_lolf_chef_de_file  "185" ;
+        projet:libelle_programme_lolf_chef_de_file  "Diplomatie culturelle et d'influence" ;
+        projet:identifiants_autres_programmes_lolf  "150" ;
+        projet:com_code                "75110" ;
+        projet:com_nom                 "Paris 10e" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D075" ;
+        projet:dep                     <projet:Paris> ;
+        projet:aca_id                  "A01" ;
+        projet:aca                     <dbpedia-fr:Paris> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        owl:sameAs                     <http://localhost:3333/Agence%20de%20promotion%20des%20formations%20et%20des%20%C3%A9changes%20%C3%A9ducatifs%20et%20scientifiques> .
+
+<http://websm.org/institution/ANR>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0755611S" ;
+        projet:libelle_court           "ANR" ;
+        projet:libelle_long            "Agence nationale de la recherche" ;
+        projet:statut_juridique_court  "Établissement public à caractère administratif" ;
+        vcard:street-address           "212 RUE DE BERCY" ;
+        vcard:postal-code              "75012" ;
+        vcard:locality                 <dbpedia-fr:PARIS> ;
+        vcard:latitude                 "48.8457727" ;
+        vcard:longitude                "2.3709785" ;
+        vcard:url                      "http://www.agence-nationale-recherche.fr/" ;
+        foaf:account                   <https://twitter.com/AgenceRecherche> ;
+        foaf:account                   <https://www.linkedin.com/company/anr> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/0b780_h" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q392500" ;
+        projet:statut_operateur_lolf   "Opérateurs MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Recherche et enseignement supérieur" ;
+        projet:identifiant_programme_lolf_chef_de_file  "172" ;
+        projet:libelle_programme_lolf_chef_de_file  "Recherches scientifiques et technologiques pluridisciplinaires" ;
+        projet:com_code                "75112" ;
+        projet:com_nom                 "Paris 12e" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D075" ;
+        projet:dep                     <projet:Paris> ;
+        projet:aca_id                  "A01" ;
+        projet:aca                     <dbpedia-fr:Paris> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        owl:sameAs                     <http://localhost:3333/Agence%20nationale%20de%20la%20recherche> .
+
+<http://websm.org/institution/G%C3%A9nopole>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0912305L" ;
+        projet:libelle_court           "Génopole" ;
+        projet:libelle_long            "Génopole" ;
+        projet:statut_juridique_court  "Groupement d'intérêt public" ;
+        vcard:street-address           "5, RUE HENRI DESBRUÈRES" ;
+        vcard:postal-code              "91030" ;
+        vcard:locality                 <dbpedia-fr:EVRY_CEDEX> ;
+        vcard:latitude                 "48.6184256" ;
+        vcard:longitude                "2.4511523" ;
+        vcard:url                      "http://www.genopole.fr/" ;
+        foaf:account                   <https://twitter.com/Genopole> ;
+        foaf:account                   <https://www.linkedin.com/company/genopole> ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q3123008" ;
+        projet:statut_operateur_lolf   "Opérateurs MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Recherche et enseignement supérieur" ;
+        projet:identifiant_programme_lolf_chef_de_file  "172" ;
+        projet:libelle_programme_lolf_chef_de_file  "Recherches scientifiques et technologiques pluridisciplinaires" ;
+        projet:identifiants_autres_programmes_lolf  "." ;
+        projet:com_code                "91228" ;
+        projet:com_nom                 "Évry" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D091" ;
+        projet:dep                     <projet:Essonne> ;
+        projet:aca_id                  "A25" ;
+        projet:aca                     <dbpedia-fr:Versailles> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        owl:sameAs                     <http://localhost:3333/G%C3%A9nopole> .
+
+<http://websm.org/institution/GEODERIS>
+        rdf:type                       projet:Institution ;
+        projet:libelle_court           "GEODERIS" ;
+        projet:libelle_long            "Groupement d'Intérêt Public INERIS/BRGM" ;
+        projet:statut_juridique_court  "Groupement d'intérêt public" ;
+        vcard:street-address           "15 RUE CLAUDE CHAPPE" ;
+        vcard:postal-code              "57070" ;
+        vcard:locality                 <dbpedia-fr:METZ> ;
+        vcard:latitude                 "49.103892" ;
+        vcard:longitude                "6.223911" ;
+        vcard:url                      "http://www.geoderis.fr/" ;
+        projet:statut_operateur_lolf   "Opérateurs LOLF Hors MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Écologie, développement et aménagement durables" ;
+        projet:identifiant_programme_lolf_chef_de_file  "181" ;
+        projet:libelle_programme_lolf_chef_de_file  "Prévention des risques" ;
+        projet:com_code                "57463" ;
+        projet:com_nom                 "Metz" ;
+        projet:uucr_id                 "UU57701" ;
+        projet:uucr_nom                "Metz" ;
+        projet:dep_id                  "D057" ;
+        projet:dep                     <projet:Moselle> ;
+        projet:aca_id                  "A12" ;
+        projet:aca                     <dbpedia-fr:Nancy-Metz> ;
+        projet:reg_id                  "R41" ;
+        projet:reg                     <projet:Lorraine> ;
+        owl:sameAs                     <http://localhost:3333/Groupement%20d'Int%C3%A9r%C3%AAt%20Public%20INERIS/BRGM> .
+
+<http://websm.org/institution/AFR>
+        rdf:type                       projet:Institution ;
+        projet:libelle_court           "AFR" ;
+        projet:libelle_long            "Académie de France à Rome" ;
+        projet:statut_juridique_court  "Établissement public à caractère administratif" ;
+        vcard:street-address           "VIALE DELLA TRINITA DEI MONTI 1" ;
+        vcard:postal-code              "00187" ;
+        vcard:locality                 <dbpedia-fr:ROMA,_ITALIA> ;
+        vcard:latitude                 "41.9083567" ;
+        vcard:longitude                "12.4825788" ;
+        vcard:url                      "http://www.villamedici.it/" ;
+        foaf:account                   <https://twitter.com/VillaMedicis> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/03x5bt" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q337494" ;
+        projet:statut_operateur_lolf   "Opérateurs LOLF Hors MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Culture" ;
+        projet:identifiant_programme_lolf_chef_de_file  "224" ;
+        projet:libelle_programme_lolf_chef_de_file  "Transmission des savoirs et démocratisation de la culture" ;
+        projet:com_nom                 "Rome" ;
+        projet:dep_id                  "D999" ;
+        projet:dep                     <projet:%C3%89tranger> ;
+        projet:aca_id                  "A99" ;
+        projet:aca                     <dbpedia-fr:Non_d%C3%A9fini> ;
+        projet:reg_id                  "R99" ;
+        projet:reg                     <projet:%C3%89tranger> ;
+        owl:sameAs                     <http://localhost:3333/Acad%C3%A9mie%20de%20France%20%C3%A0%20Rome> .
+
+<http://websm.org/institution/INRA>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0755361V" ;
+        projet:libelle_court           "INRA" ;
+        projet:libelle_long            "Institut national de la recherche agronomique" ;
+        projet:statut_juridique_court  "Établissements publics à caractère scientifique et technologique" ;
+        vcard:street-address           "147 RUE DE L'UNIVERSITÉ" ;
+        vcard:postal-code              "75338" ;
+        vcard:locality                 <dbpedia-fr:PARIS_CEDEX_07> ;
+        vcard:latitude                 "48.8610653" ;
+        vcard:longitude                "2.3062707" ;
+        vcard:url                      "http://www.inra.fr/" ;
+        foaf:account                   <https://twitter.com/Inra_France> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/057xj7" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q1665106" ;
+        projet:statut_operateur_lolf   "Opérateurs MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Recherche et enseignement supérieur" ;
+        projet:identifiant_programme_lolf_chef_de_file  "187" ;
+        projet:libelle_programme_lolf_chef_de_file  "Recherche dans le domaine de la gestion des milieux et des ressources" ;
+        projet:identifiants_autres_programmes_lolf  "142" ;
+        projet:com_code                "75107" ;
+        projet:com_nom                 "Paris 7e" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D075" ;
+        projet:dep                     <projet:Paris> ;
+        projet:aca_id                  "A01" ;
+        projet:aca                     <dbpedia-fr:Paris> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:numero_siren_siret_uai  "18007003901803" ;
+        owl:sameAs                     <http://localhost:3333/Institut%20national%20de%20la%20recherche%20agronomique> .
+
+<http://websm.org/institution/IFSTTAR>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0772765M" ;
+        projet:libelle_court           "IFSTTAR" ;
+        projet:libelle_long            "Institut français des sciences et technologies des transports, de l'aménagement et des réseaux" ;
+        projet:statut_juridique_court  "Établissements publics à caractère scientifique et technologique" ;
+        vcard:street-address           "CITÉ DESCARTES - 14 BOULEVARD NEWTON" ;
+        projet:complement_adresse      "CHAMPS SUR MARNE" ;
+        vcard:postal-code              "77447" ;
+        vcard:locality                 <dbpedia-fr:MARNE_LA_VALL%C3%89E_CEDEX_2> ;
+        vcard:latitude                 "48.842384" ;
+        vcard:longitude                "2.587371" ;
+        vcard:url                      "http://www.ifsttar.fr/" ;
+        foaf:account                   <https://twitter.com/Ifsttar> ;
+        foaf:account                   <https://www.linkedin.com/pub/ifsttar-institute/50/1a7/707> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/0fp_lm4" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q3152297" ;
+        projet:statut_operateur_lolf   "Opérateurs MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Recherche et enseignement supérieur" ;
+        projet:identifiant_programme_lolf_chef_de_file  "190" ;
+        projet:libelle_programme_lolf_chef_de_file  "Recherche dans les domaines de l'énergie, du développement et de l'aménagement durables" ;
+        projet:com_code                "77083" ;
+        projet:com_nom                 "Champs-sur-Marne" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D077" ;
+        projet:dep                     <projet:Seine-et-Marne> ;
+        projet:aca_id                  "A24" ;
+        projet:aca                     <dbpedia-fr:Cr%C3%A9teil> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:numero_siren_siret_uai  "13001342800078" ;
+        owl:sameAs                     <http://localhost:3333/Institut%20fran%C3%A7ais%20des%20sciences%20et%20technologies%20des%20transports,%20de%20l'am%C3%A9nagement%20et%20des%20r%C3%A9seaux> .
+
+<http://websm.org/institution/IRSN>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0922643Y" ;
+        projet:libelle_court           "IRSN" ;
+        projet:libelle_long            "Institut de radioprotection et de sûreté nucléaire" ;
+        projet:statut_juridique_court  "Établissement public à caractère industriel et commercial" ;
+        vcard:street-address           "31, AVENUE DE LA DIVISION LECLERC" ;
+        vcard:postal-code              "92260" ;
+        vcard:locality                 <dbpedia-fr:FONTENAY-AUX-ROSES> ;
+        vcard:latitude                 "48.7949673" ;
+        vcard:longitude                "2.2744071" ;
+        vcard:url                      "http://www.irsn.fr/" ;
+        foaf:account                   <https://twitter.com/radioprotection> ;
+        foaf:account                   <https://www.linkedin.com/company/irsn> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/0cstsf" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q1502878" ;
+        projet:statut_operateur_lolf   "Opérateurs MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Recherche et enseignement supérieur" ;
+        projet:identifiant_programme_lolf_chef_de_file  "190" ;
+        projet:libelle_programme_lolf_chef_de_file  "Recherche dans les domaines de l'énergie, du développement et de l'aménagement durables" ;
+        projet:identifiants_autres_programmes_lolf  "181;212" ;
+        projet:com_code                "92032" ;
+        projet:com_nom                 "Fontenay-aux-Roses" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D092" ;
+        projet:dep                     <projet:Hauts-de-Seine> ;
+        projet:aca_id                  "A25" ;
+        projet:aca                     <dbpedia-fr:Versailles> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:numero_siren_siret_uai  "44054601800027" ;
+        owl:sameAs                     <http://localhost:3333/Institut%20de%20radioprotection%20et%20de%20s%C3%BBret%C3%A9%20nucl%C3%A9aire> .
+
+<http://websm.org/institution/SHOM>
+        rdf:type                       projet:Institution ;
+        projet:libelle_court           "SHOM" ;
+        projet:libelle_long            "Service hydrographique et océanographique de la marine" ;
+        projet:statut_juridique_court  "Établissement public à caractère administratif" ;
+        vcard:street-address           "CS 92803" ;
+        vcard:postal-code              "29228" ;
+        vcard:locality                 <dbpedia-fr:BREST_CEDEX_2> ;
+        vcard:latitude                 "48.409387-4.507575" ;
+        vcard:longitude                "-4.507575" ;
+        vcard:url                      "http://www.shom.fr/" ;
+        foaf:account                   <https://twitter.com/shom_fr> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/04n072s" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q3480442" ;
+        projet:statut_operateur_lolf   "Opérateurs LOLF Hors MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Défense" ;
+        projet:identifiant_programme_lolf_chef_de_file  "212" ;
+        projet:libelle_programme_lolf_chef_de_file  "Soutien de la politique de la défense" ;
+        projet:com_code                "29019" ;
+        projet:com_nom                 "Brest" ;
+        projet:uucr_id                 "UU29701" ;
+        projet:uucr_nom                "Brest" ;
+        projet:dep_id                  "D029" ;
+        projet:dep                     <projet:Finist%C3%A8re> ;
+        projet:aca_id                  "A14" ;
+        projet:aca                     <dbpedia-fr:Rennes> ;
+        projet:reg_id                  "R53" ;
+        projet:reg                     <projet:Bretagne> ;
+        owl:sameAs                     <http://localhost:3333/Service%20hydrographique%20et%20oc%C3%A9anographique%20de%20la%20marine> .
+
+<http://websm.org/institution/Mission%20de%20recherche%20Droit%20et%20Justice>
+        rdf:type                       projet:Institution ;
+        projet:libelle_court           "Mission de recherche Droit et Justice" ;
+        projet:libelle_long            "Mission de recherche Droit et Justice" ;
+        projet:statut_juridique_court  "Groupement d'intérêt public" ;
+        vcard:street-address           "13 PLACE VENDOME" ;
+        vcard:postal-code              "75042" ;
+        vcard:locality                 <dbpedia-fr:PARIS_CEDEX_01> ;
+        vcard:latitude                 "48.8677566" ;
+        vcard:longitude                "2.3287208" ;
+        vcard:url                      "http://www.gip-recherche-justice.fr/" ;
+        projet:statut_operateur_lolf   "Opérateurs LOLF Hors MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Justice" ;
+        projet:identifiant_programme_lolf_chef_de_file  "310" ;
+        projet:libelle_programme_lolf_chef_de_file  "Conduite et pilotage de la politique de la justice" ;
+        projet:com_code                "75101" ;
+        projet:com_nom                 "Paris 1er" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D075" ;
+        projet:dep                     <projet:Paris> ;
+        projet:aca_id                  "A01" ;
+        projet:aca                     <dbpedia-fr:Paris> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        owl:sameAs                     <http://localhost:3333/Mission%20de%20recherche%20Droit%20et%20Justice> .
+
+<http://websm.org/institution/Acad%C3%A9mie%20des%20technologies>
+        rdf:type                       projet:Institution ;
+        projet:libelle_court           "Académie des technologies" ;
+        projet:libelle_long            "Académie des technologies" ;
+        projet:statut_juridique_court  "Établissement public à caractère administratif" ;
+        vcard:street-address           "GRAND PALAIS DES CHAMPS ELYSÉES - PORTE C" ;
+        projet:complement_adresse      "AVENUE FRANCKLIN D. ROOSEVELT" ;
+        vcard:postal-code              "75008" ;
+        vcard:locality                 <dbpedia-fr:PARIS> ;
+        vcard:latitude                 "48.866284" ;
+        vcard:longitude                "2.31088" ;
+        vcard:url                      "http://www.academie-technologies.fr/" ;
+        foaf:account                   <https://twitter.com/AcadTechnolog> ;
+        foaf:account                   <https://www.linkedin.com/company/acad-mie-des-technologies> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/0dlm6c" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q2822399" ;
+        projet:statut_operateur_lolf   "Opérateurs MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Recherche et enseignement supérieur" ;
+        projet:identifiant_programme_lolf_chef_de_file  "172" ;
+        projet:libelle_programme_lolf_chef_de_file  "Recherches scientifiques et technologiques pluridisciplinaires" ;
+        projet:identifiants_autres_programmes_lolf  "." ;
+        projet:com_code                "75108" ;
+        projet:com_nom                 "Paris 8e" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D075" ;
+        projet:dep                     <projet:Paris> ;
+        projet:aca_id                  "A01" ;
+        projet:aca                     <dbpedia-fr:Paris> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        owl:sameAs                     <http://localhost:3333/Acad%C3%A9mie%20des%20technologies> .
+
+<http://websm.org/institution/Pasteur>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0755366A" ;
+        projet:libelle_court           "Pasteur" ;
+        projet:libelle_long            "Institut Pasteur" ;
+        projet:statut_juridique_court  "Fondation reconnue d'utilité publique" ;
+        vcard:street-address           "25-28 RUE DU DR ROUX" ;
+        vcard:postal-code              "75724" ;
+        vcard:locality                 <dbpedia-fr:PARIS_CEDEX_15> ;
+        vcard:latitude                 "48.8404182" ;
+        vcard:longitude                "2.31068" ;
+        vcard:url                      "http://www.pasteur.fr/fr" ;
+        foaf:account                   <https://twitter.com/aiderpasteur> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/03jwc8" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q391083" ;
+        projet:statut_operateur_lolf   "Non_Opérateur_LOLF" ;
+        projet:com_code                "75115" ;
+        projet:com_nom                 "Paris 15e" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D075" ;
+        projet:dep                     <projet:Paris> ;
+        projet:aca_id                  "A01" ;
+        projet:aca                     <dbpedia-fr:Paris> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        owl:sameAs                     <http://localhost:3333/Institut%20Pasteur> .
+
+<http://websm.org/institution/CNRS>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0753639Y" ;
+        projet:libelle_court           "CNRS" ;
+        projet:libelle_long            "Centre national de la recherche scientifique" ;
+        projet:statut_juridique_court  "Établissements publics à caractère scientifique et technologique" ;
+        vcard:street-address           "3, RUE MICHEL-ANGE" ;
+        vcard:postal-code              "75794" ;
+        vcard:locality                 <dbpedia-fr:PARIS_CEDEX_16> ;
+        vcard:latitude                 "48.8476007" ;
+        vcard:longitude                "2.264082" ;
+        vcard:url                      "http://www.cnrs.fr/" ;
+        foaf:account                   <https://twitter.com/CNRS> ;
+        projet:identifiant_freebase    "http://www.freebase.com/m/012bcd" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q280413" ;
+        projet:statut_operateur_lolf   "Opérateurs MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Recherche et enseignement supérieur" ;
+        projet:identifiant_programme_lolf_chef_de_file  "172" ;
+        projet:libelle_programme_lolf_chef_de_file  "Recherches scientifiques et technologiques pluridisciplinaires" ;
+        projet:com_code                "75116" ;
+        projet:com_nom                 "Paris 16e" ;
+        projet:uucr_id                 "UU00851" ;
+        projet:uucr_nom                "Paris" ;
+        projet:dep_id                  "D075" ;
+        projet:dep                     <projet:Paris> ;
+        projet:aca_id                  "A01" ;
+        projet:aca                     <dbpedia-fr:Paris> ;
+        projet:reg_id                  "R11" ;
+        projet:reg                     <projet:%C3%8Ele-de-France> ;
+        projet:numero_siren_siret_uai  "18008901303720" ;
+        owl:sameAs                     <http://localhost:3333/Centre%20national%20de%20la%20recherche%20scientifique> .
+
+<http://websm.org/institution/IPEV>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0292267G" ;
+        projet:libelle_court           "IPEV" ;
+        projet:libelle_long            "Institut polaire français Paul-Émile Victor" ;
+        projet:statut_juridique_court  "Groupement d'intérêt public" ;
+        vcard:street-address           "TECHNOPÔLE BREST-IROISE" ;
+        projet:complement_adresse      "CS 60 075" ;
+        vcard:postal-code              "29280" ;
+        vcard:locality                 <dbpedia-fr:PLOUZAN%C3%89> ;
+        vcard:latitude                 "48.359494-4.5680089" ;
+        vcard:longitude                "-4.5680089" ;
+        vcard:url                      "http://www.institut-polaire.fr/" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q962531" ;
+        projet:statut_operateur_lolf   "Opérateurs MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Recherche et enseignement supérieur" ;
+        projet:identifiant_programme_lolf_chef_de_file  "172" ;
+        projet:libelle_programme_lolf_chef_de_file  "Recherches scientifiques et technologiques pluridisciplinaires" ;
+        projet:com_code                "29212" ;
+        projet:com_nom                 "Plouzané" ;
+        projet:uucr_id                 "UU29701" ;
+        projet:uucr_nom                "Brest" ;
+        projet:dep_id                  "D029" ;
+        projet:dep                     <projet:Finist%C3%A8re> ;
+        projet:aca_id                  "A14" ;
+        projet:aca                     <dbpedia-fr:Rennes> ;
+        projet:reg_id                  "R53" ;
+        projet:reg                     <projet:Bretagne> ;
+        owl:sameAs                     <http://localhost:3333/Institut%20polaire%20fran%C3%A7ais%20Paul-%C3%89mile%20Victor> .
+
+<http://websm.org/institution/INERIS>
+        rdf:type                       projet:Institution ;
+        projet:uai                     "0602098E" ;
+        projet:libelle_court           "INERIS" ;
+        projet:libelle_long            "Institut national de l'environnement industriel et des risques" ;
+        projet:statut_juridique_court  "Établissement public à caractère industriel et commercial" ;
+        vcard:street-address           "PARC TECHNOLOGIQUE ALATA" ;
+        projet:complement_adresse      "BP 2" ;
+        vcard:postal-code              "60550" ;
+        vcard:locality                 <dbpedia-fr:VERNEUIL-EN-HALATTE> ;
+        vcard:latitude                 "49.270971" ;
+        vcard:longitude                "2.501898" ;
+        vcard:url                      "http://www.ineris.fr/" ;
+        projet:identifiant_wikidata    "http://www.wikidata.org/entity/Q3152390" ;
+        projet:statut_operateur_lolf   "Opérateurs LOLF Hors MIRES 2014" ;
+        projet:libelle_mission_chef_de_file  "Écologie, développement et aménagement durables" ;
+        projet:identifiant_programme_lolf_chef_de_file  "181" ;
+        projet:libelle_programme_lolf_chef_de_file  "Prévention des risques" ;
+        projet:identifiants_autres_programmes_lolf  "190" ;
+        projet:com_code                "60670" ;
+        projet:com_nom                 "Verneuil-en-Halatte" ;
+        projet:uucr_id                 "UU60601" ;
+        projet:uucr_nom                "Creil" ;
+        projet:dep_id                  "D060" ;
+        projet:dep                     <projet:Oise> ;
+        projet:aca_id                  "A20" ;
+        projet:aca                     <dbpedia-fr:Amiens> ;
+        projet:reg_id                  "R22" ;
+        projet:reg                     <projet:Picardie> ;
+        projet:numero_siren_siret_uai  "38198492100019" ;
+        owl:sameAs                     <http://localhost:3333/Institut%20national%20de%20l'environnement%20industriel%20et%20des%20risques> .
