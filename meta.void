@@ -6,12 +6,13 @@
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 
 
-:EtoilesDataset   a void:Dataset;
+:EtoilesDataset a void:Dataset;
 	foaf:homepage <http://concours-etoiles-europe.org/>;
 	void:sparqlEndpoint	<http://concours-etoiles-europe.org/sparql>;
     void:uriSpace "http://concours-etoiles-europe.org/ns#";
     dcterms:description "RDF data extracted from ESR. It describes the winners of the French contest Les Etoiles de l'Europe.@en;
     dcterms:description "Données RDF extraites du site de l'ESR. Ces données décrivent les lauréats du concours français les Étoiles de l'Europe.@fr;
+    void:subset :autreGroupeDataset;
 	dcterms:contributor [
 		a foaf:Organization;
 		rdfs:label "Université de Nantes@fr";
@@ -20,13 +21,13 @@
 	];
 	dcterms:publisher [
 		a foaf:Person;
-		rdfs:label "Roxane BELLOT";
-		foaf:mbox <roxane.bellot@univ-nantes.fr>.
+		rdfs:label "Florent ALAPETITE";
+		foaf:mbox <florent.alapetite@univ-nantes.fr>.
 	];
 	dcterms:publisher [
 		a foaf:Person;
-		rdfs:label "Florent ALAPETITE";
-		foaf:mbox <florent.alapetite@univ-nantes.fr>.
+		rdfs:label "Roxane BELLOT";
+		foaf:mbox <roxane.bellot@univ-nantes.fr>.
 	];
 	dcterms:publisher [
 		a foaf:Person;
@@ -34,6 +35,25 @@
 		foaf:mbox <alexandre.boudine@univ-nantes.fr>.
 	].
 
-
-:EtoilesDataset  a     					void:Linkset ;
-    		   void:target              hyvanneDataset.
+:autreGroupeDataset a void:Dataset;
+	dcterms:contributor [
+		a foaf:Organization;
+		rdfs:label "Université de Nantes@fr";
+		rdfs:label "University of Nantes@en";
+		foaf:homepage <http://www.univ-nantes.fr>.
+	];
+	dcterms:publisher [
+		a foaf:Person;
+		rdfs:label "Bapstiste Auffray";
+		foaf:mbox <baptiste.auffray@univ-nantes.fr>.
+	];
+	dcterms:publisher [
+		a foaf:Person;
+		rdfs:label "Loïc Boutin";
+		foaf:mbox <loic.boutin@univ-nantes.fr>.
+	];
+	dcterms:publisher [
+		a foaf:Person;
+		rdfs:label "Ivan Dromigny--Chevreuil";
+		foaf:mbox <ivan.dromigny--chevreuil@univ-nantes.fr>.
+	].
