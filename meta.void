@@ -44,16 +44,16 @@
 	];
 	dcterms:publisher [
 		a foaf:Person;
-		rdfs:label "Bapstiste Auffray";
-		foaf:mbox <baptiste.auffray@univ-nantes.fr>.
+		rdfs:label "Antoine Magnin";
+		foaf:mbox <antoine.magnin@univ-nantes.fr>.
 	];
 	dcterms:publisher [
 		a foaf:Person;
-		rdfs:label "Loïc Boutin";
-		foaf:mbox <loic.boutin@univ-nantes.fr>.
+		rdfs:label "Martin Laville";
+		foaf:mbox <martin.laville@univ-nantes.fr>.
 	];
 	dcterms:publisher [
 		a foaf:Person;
-		rdfs:label "Ivan Dromigny--Chevreuil";
-		foaf:mbox <ivan.dromigny--chevreuil@univ-nantes.fr>.
+		rdfs:label "Nathan Salün";
+		foaf:mbox <nathan.salun@univ-nantes.fr>.
 	].
