@@ -4,6 +4,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
 
 
 :EtoilesDataset a void:Dataset;
@@ -13,6 +14,7 @@
     dcterms:description "RDF data extracted from ESR. It describes the winners of the French contest Les Etoiles de l'Europe.@en;
     dcterms:description "Données RDF extraites du site de l'ESR. Ces données décrivent les lauréats du concours français les Étoiles de l'Europe.@fr;
     void:subset :autreGroupeDataset;
+    void:linkPredicate owl:sameAs;
 	dcterms:contributor [
 		a foaf:Organization;
 		rdfs:label "Université de Nantes@fr";
@@ -36,6 +38,7 @@
 	].
 
 :autreGroupeDataset a void:Dataset;
+	void:target :EtoilesDataset;
 	dcterms:contributor [
 		a foaf:Organization;
 		rdfs:label "Université de Nantes@fr";
@@ -54,6 +57,6 @@
 	];
 	dcterms:publisher [
 		a foaf:Person;
-		rdfs:label "Nathan Salün";
-		foaf:mbox <nathan.salun@univ-nantes.fr>.
+		rdfs:label "Nathan Salaün";
+		foaf:mbox <nathan.salaun@univ-nantes.fr>.
 	].
