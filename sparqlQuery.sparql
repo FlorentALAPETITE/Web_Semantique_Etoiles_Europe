@@ -1,9 +1,12 @@
 PREFIX foaf:  <http://xmlns.com/foaf/0.1/> 
 PREFIX doap: <http://usefulinc.com/ns/doap#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
-PREFIX nous: <http://concours-etoiles-europe.org/ns#>
+PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX nous: <http://concours-etoiles-europe.org/ns#>
+PREFIX projet:  <http://websm.org/projet/>
 
 # Retourne le nom de tous les vainqueurs du concours de l'année 2016 et leur mention si renseignée
 
@@ -46,14 +49,6 @@ WHERE {
     ?projet nous:nature_structure ?nature_structure.
 } GROUP BY ?nature_structure ORDER BY ?nb_projets
 
-# Query inter-groupes // Retourne tous les "Pierre" qui ont reçu un prix
-
-SELECT ?firstName ?familyName
-WHERE{
-    ?x foaf:firstName ?firstName;
-        foaf:familyName ?familyName;
-        foaf:firstName “Pierre” .
-}
 
 
 # Les départements en commun et le nombre d'organisations dans chaque graphe
